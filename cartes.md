@@ -5,14 +5,6 @@ layout: default
 
 <body>
 
-        
-<header class="main-header " style="background-image: url(/content/images/2017/06/dan-gold-mid-compressor.jpg)">
-    <nav class="main-nav overlay clearfix">
-        <a class="blog-logo" href="https://la-cascade.io"><img src="/content/images/2015/03/optimised.svg" alt="Home" /></a>
-    </nav>
-</header>
-
-
 <!--
   La carte de nos lieux de sorties à Paris
 -->

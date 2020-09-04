@@ -1,6 +1,6 @@
 ---
 title: Recettes
-layout: home
+layout: recettes
 ---
 
 Content is written
