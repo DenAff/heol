@@ -1,55 +1,89 @@
 <!DOCTYPE html>
 <html>
-    <head>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
 
-        <!--
-          La balise suivante permet de déclarer la table d'encodage des caractères.
-          la table UTF-8, permet théoriquement d'encoder toutes les langues, du français au japonais en passant par l'arabe.
-        -->
-        <meta charset="utf-8">
-    
-        <!--
-          La balise suivante permet de ne pas indexer mon site web et bien plus.
-          Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#max-image-preview
-        -->
-        <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, notranslate, noimageindex">
-    
-        <!-- Permet de controler la dimenssion d'affichage de ma page web et le zoom dans celle-ci -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <!-- Ma feuille de style CSS
-        <link rel="stylesheet" type="text/css" href="/css/home.css">   -->
- 
-        <title>{{ site.title }} | {{ page.title }}</title>
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
-    </head>
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
-    <body>
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-        {{ content }}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 
-    <!--
-      La carte de nos lieux de sorties à Paris
-    -->
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
 
-    <div class="parent">
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
 
-        <iframe
-        width="90%" height="600px" allowfullscreen
-        src="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924?scale
-        Control=true&miniMap=false&scrollWheelZoom=true&zoom
-        Control=false&allowEdit=false&moreControl=false&search
-        Control=true&tilelayersControl=false&embedControl=true&datalayers
-        Control=true&onLoadPanel=none&captionBar=false&fullscreen
-        Control=true&locateControl=true&measureControl=false&editinosm
-        Control=false">
-        </iframe>
-        
-    </div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home">Home</a>
+  <a href="cartes">Cartes</a>
+  <a href="recettes">Recettes</a>
+</div>
 
-        <p style="text-align:center">
-            <a id="a1" href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
-        </p>
+<div id="main">
 
-    </body>
-</html>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  {{ content }}
+
+</div>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+</html> 
