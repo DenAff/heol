@@ -20,6 +20,8 @@
         <!-- Ma feuille de style CSS
         <link rel="stylesheet" type="text/css" href="/css/home.css">   -->
  
+        <title>{{ site.title }} | {{ page.title }}</title>
+
     </head>
 
     <body>
@@ -29,6 +31,8 @@
     <!--
       La carte de nos lieux de sorties à Paris
     -->
+
+    <div class="parent">
 
         <iframe
         width="90%" height="600px" allowfullscreen
@@ -40,6 +44,8 @@
         Control=true&locateControl=true&measureControl=false&editinosm
         Control=false">
         </iframe>
+        
+    </div>
 
         <p style="text-align:center">
             <a id="a1" href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
