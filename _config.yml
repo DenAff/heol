@@ -1,2 +1,4 @@
 name: Heol website
 title: Heol
+
+permalink: /:categories/:title:output_ext
