@@ -1,0 +1,6 @@
+- name: index
+  link: /
+- name: cartes
+  link: /cartes.html
+- name: recettes
+  link: /recettes.html
