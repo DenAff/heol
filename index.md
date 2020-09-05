@@ -2,6 +2,7 @@
 title: Home
 layout: default
 permalink:
+categories:
 ---
 
 <html>

@@ -1,7 +1,7 @@
 ---
 title: My First Post
 layout: default
-collection: recettes
+categories: recettes
 ---
 
 # {{ page.title }}
