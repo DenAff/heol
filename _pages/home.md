@@ -1,8 +1,7 @@
 ---
 title: Home
 layout: default
-permalink:
-categories:
+permalink: index.html
 ---
 
 <html>
@@ -24,7 +23,7 @@ categories:
 
             body {
                 /* The image used */
-                background-image: url('{{ site.baseurl }}/assets/images/home/travis-grossen.jpg');
+                background-image: url('{{ site.baseurl }}/_assets/images/home/travis-grossen.jpg');
 
                 /* Full height */
                 height: 100%; 

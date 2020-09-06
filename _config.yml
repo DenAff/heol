@@ -1,4 +1,5 @@
-name: Heol website
-title: Heol
+# Handling Reading
+include             : ["_pages", "_assets"]
 
-permalink: /:categories/:title:output_ext
+# Outputting
+permalink: none   # /:categories/:title.html

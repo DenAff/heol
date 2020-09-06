@@ -1,6 +1,7 @@
 ---
 title: Cartes
 layout: default
+permalink: cartes.html
 ---
 
 <body>

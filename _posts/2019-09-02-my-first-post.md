@@ -1,7 +1,7 @@
 ---
 title: My First Post
 layout: default
-categories: recettes
+permalink: /:title
 ---
 
 # {{ page.title }}
