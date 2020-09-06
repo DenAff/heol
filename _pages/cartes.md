@@ -3,6 +3,33 @@ title: Cartes
 layout: default
 permalink: cartes.html
 ---
+<html>
+
+<head>
+
+<style>
+
+body, html {
+  height: 30%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url('{{ site.baseurl }}/_assets/images/home/travis-grossen.jpg');
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+</style>
+
+</head>
 
 <body>
 
@@ -30,3 +57,5 @@ permalink: cartes.html
     </p>
 
 </body>
+
+</html>
