@@ -1,63 +1,176 @@
 ---
 title: Test
-layout: default
 permalink: test.html
 ---
 
 <html>
 
-    <head>
+  <head>
 
-        <style>
+    <!--
+    La balise suivante permet de déclarer la table d'encodage des caractères.
+    la table UTF-8, permet théoriquement d'encoder toutes les langues, du français au japonais en passant par l'arabe.
+    -->
+    <meta charset="utf-8">
+    
+    <!--
+    La balise suivante permet de ne pas indexer mon site web et bien plus.
+    Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#max-image-preview
+    -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, notranslate, noimageindex">
+    
+    <!-- Permet de controler la dimenssion d'affichage de ma page web et le zoom dans celle-ci -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- Titre ddu site web dans le navigateeur web -->
+    <title>{{ site.title }} | {{ page.title }}</title>
 
-            * {
-              box-sizing: border-box;
-            }
+      <style>
 
-            .row::after {
-                content: "";
-                clear: both;
-                display: table;
-            }
+        body,html {
+            padding: 0;
+            margin: 0;
+        }
 
-            [class*="col-"] {
-            float: center;
-            padding: 10% 50%;
-            }
+        .header{
+          grid-area: hd;
+          background: url('{{ site.baseurl }}/_assets/images/home/travis-grossen.jpg');      
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: #ffffff;
+          padding: 50px;
+        }
 
-            html {
-                font-family: "Lucida Sans", sans-serif;
-            }
+        .footer{
+          grid-area: ft;
+          background-color: white;
+        }
 
-            .header {
-                background:url('{{ site.baseurl }}/_assets/images/home/travis-grossen.jpg'); 
-                padding: 50px;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                color: #ffffff;
-                }
+        .content{
+          grid-area: main;
+          background-color: white;
+          padding: 50px; 
+        }
 
-            .col-1 {width: 100%;}
+        .sidebar{
+          grid-area: sd;
+          background-color: #111;
+          padding-top: 80%;
+        }
 
-        </style>
+        .wrapper{
+          display: grid;
+          grid-template-columns: 1fr 1fr 3fr 1fr;
+          grid-auto-rows: auto;
+          grid-template-areas: 
+            "sd hd hd hd"
+            "sd main main main"
+            "sd ft ft ft";
+        }
 
-    </head>
+        .text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          font-size: 70px;
+          color: white;
+          line-height: 1;
+          font-family: "Lato", sans-serif;
+          font-weight: 200;
+        }
 
-    <body>
+        .content-text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          font-size: 70px;
+          color: black;
+          line-height: 1;
+          font-family: Arial;
+          font-weight: 200;
+        }
 
-        <div class="header">
-	    <h1 style="text-align:center;">{{ page.title }}</h1>
+        .footer-text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          font-size: 10px;
+          color: grey;
+          line-height: 1;
+          font-family: Arial;
+          font-weight: 200;
+        }        
+
+a:link {
+  text-decoration: none;
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+   color: white;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+      </style>
+
+  </head>
+
+  <body>
+
+        <div class='wrapper'>
+
+          <div class='header'>
+            <div class='text'> {{ page.title }} </div>
+          </div>
+
+          <div class='sidebar'>
+            <div class='text'>
+              <a href="/index">Home</a>
+            </div>
+
+            <div class='text'>
+              <a href="/cartes">Cartes</a>
+            </div>
+
+            <div class='text'>
+              <a href="/recettes">Recettes</a>
+            </div>
+
+            <div class='text'>
+              <a href="/test">Test</a>
+            </div>
+          </div>
+
+          <div class='content'>
+            <div class='content-text'>
+                <ul>
+                    {% for post in site.posts %}
+                        <li>
+                          <a href="{{ post.url }}">{{ post.title}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+          </div>
+
+          <div class='footer'>
+            <div class='footer-text'> {{ site.title }} | {{ page.title }} </div>
+          </div>
+
         </div>
 
-        <div class="col-1">
-	 
-            <ul>
-            {% for post in site.posts %}
-                <li>
-                    <a href="{{ post.url }}">{{ post.title}}</a>
-                </li>
-            {% endfor %}
-            </ul>
+  </body>
 
-        </div>
+</html>
