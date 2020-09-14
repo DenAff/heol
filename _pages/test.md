@@ -56,7 +56,7 @@ permalink: test.html
         .sidebar{
           grid-area: sd;
           background-color: #111;
-          padding-top: 80%;
+          padding-top: 30%;
         }
 
         .wrapper{
@@ -64,7 +64,7 @@ permalink: test.html
           grid-template-columns: 1fr 1fr 3fr 1fr;
           grid-auto-rows: auto;
           grid-template-areas: 
-            "sd hd hd hd"
+            "hd hd hd hd"
             "sd main main main"
             "sd ft ft ft";
         }
@@ -105,36 +105,40 @@ permalink: test.html
           font-weight: 200;
         }        
 
-a:link {
-  text-decoration: none;
-  color: grey;
-}
+        a:link {
+          text-decoration: none;
+          color: grey;
+        }
 
-a:visited {
-  text-decoration: none;
-  color: grey;
-}
+        a:visited {
+          text-decoration: none;
+          color: grey;
+        }
 
-#sidebar a:hover {
-  text-decoration: none;
-  color: white;
-}
+        #sidebar a:hover {
+          text-decoration: none;
+          color: white;
+        }
 
-a:active {
-  text-decoration: none;
-  color: white;
-}
+        #main a:hover {
+          text-decoration: none;
+          color: black;
+        }
 
-#main a:hover {
-  text-decoration: none;
-  color: black;
-}
+        a:active {
+          text-decoration: none;
+          color: white;
+        }
 
       </style>
 
   </head>
 
   <body>
+
+<!--
+  Grille de ma page
+-->
 
         <div class='wrapper'>
 
@@ -161,6 +165,7 @@ a:active {
           </div>
 
           <div id="main" class='content'>
+
             <div class='content-text'>
                 <ul>
                     {% for post in site.posts %}
@@ -170,6 +175,26 @@ a:active {
                     {% endfor %}
                 </ul>
             </div>
+
+<!--
+  La carte de nos lieux de sorties à Paris
+-->
+
+            <iframe
+                width="90%" height="600px" allowfullscreen
+                src="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924?scale
+                Control=true&miniMap=false&scrollWheelZoom=true&zoom
+                Control=false&allowEdit=false&moreControl=false&search
+                Control=true&tilelayersControl=false&embedControl=true&datalayers
+                Control=true&onLoadPanel=none&captionBar=false&fullscreen
+                Control=true&locateControl=true&measureControl=false&editinosm
+                Control=false">
+            </iframe>
+
+            <p style="text-align:center">
+             <a id="a1" href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
+            </p>
+
           </div>
 
           <div class='footer'>
