@@ -112,15 +112,22 @@ a:link {
 
 a:visited {
   text-decoration: none;
+  color: grey;
 }
 
-a:hover {
+#sidebar a:hover {
   text-decoration: none;
-   color: white;
+  color: white;
 }
 
 a:active {
   text-decoration: none;
+  color: white;
+}
+
+#main a:hover {
+  text-decoration: none;
+  color: black;
 }
 
       </style>
@@ -135,7 +142,7 @@ a:active {
             <div class='text'> {{ page.title }} </div>
           </div>
 
-          <div class='sidebar'>
+          <div id="sidebar" class='sidebar'>
             <div class='text'>
               <a href="/index">Home</a>
             </div>
@@ -153,7 +160,7 @@ a:active {
             </div>
           </div>
 
-          <div class='content'>
+          <div id="main" class='content'>
             <div class='content-text'>
                 <ul>
                     {% for post in site.posts %}
