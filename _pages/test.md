@@ -83,14 +83,14 @@ permalink: test.html
 
         .content-text {
           display: flex;
-          justify-content: center;
+          justify-content: left;
           align-items: center;
-          padding: 20px;
-          font-size: 50px;
+          padding: 10px;
+          font-size: 25px;
           color: black;
           line-height: 1;
           font-family: Arial;
-          font-weight: 200;
+          font-weight: 00;
         }
 
         .footer-text {
@@ -143,7 +143,7 @@ permalink: test.html
         <div class='wrapper'>
 
           <div class='header'>
-            <div class='text'> {{ page.title }} </div>
+            <div class='text'> {{ site.title }} </div>
           </div>
 
           <div id="sidebar" class='sidebar'>
@@ -169,9 +169,9 @@ permalink: test.html
             <div class='content-text'>
                 <ul>
                     {% for post in site.posts %}
-                        <li>
+                        <div>
                           <a href="{{ post.url }}">{{ post.title}}</a>
-                        </li>
+                        </div>
                     {% endfor %}
                 </ul>
             </div>
