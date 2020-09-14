@@ -74,7 +74,7 @@ permalink: test.html
           justify-content: center;
           align-items: center;
           padding: 20px;
-          font-size: 70px;
+          font-size: 30px;
           color: white;
           line-height: 1;
           font-family: "Lato", sans-serif;
@@ -86,7 +86,7 @@ permalink: test.html
           justify-content: center;
           align-items: center;
           padding: 20px;
-          font-size: 70px;
+          font-size: 50px;
           color: black;
           line-height: 1;
           font-family: Arial;
@@ -181,18 +181,20 @@ permalink: test.html
 -->
 
             <iframe
-                width="90%" height="600px" allowfullscreen
+                width="100%" height="600px" allowfullscreen
                 src="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924?scale
                 Control=true&miniMap=false&scrollWheelZoom=true&zoom
-                Control=false&allowEdit=false&moreControl=false&search
+                Control=false&allowEdit=false&more
+                Control=false&search
                 Control=true&tilelayersControl=false&embedControl=true&datalayers
                 Control=true&onLoadPanel=none&captionBar=false&fullscreen
-                Control=true&locateControl=true&measureControl=false&editinosm
+                Control=true&locate
+                Control=true&measureControl=false&editinosm
                 Control=false">
             </iframe>
 
             <p style="text-align:center">
-             <a id="a1" href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
+             <a href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
             </p>
 
           </div>
