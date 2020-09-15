@@ -56,10 +56,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
         .main-nav{
           grid-area: nav;
-          position: sticky;
-          position: -webkit-sticky; /* For macOS/iOS Safari */
-          top : 0;
-          padding: 10px;
+          padding: 30px;
           align-items: center;
           text-align: center;
           background-color: #111;
@@ -75,9 +72,24 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             "nav ft";
         }
 
+/* Mise en forme du texte de la barre de navigation */
+
+        .navLinks {
+          display: flex;
+          font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 1.7em;
+          text-decoration: none;
+          color: grey
+        }
+
+        .navLinks:hover {
+          color: white;
+        }
+
 /* Mise en forme de la grille du site pour petit écran */
 
         @media (max-width: 600px) {
+
           .wrapper{
             grid-template-columns: auto;
             grid-template-rows: auto 3fr auto;
@@ -86,7 +98,24 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
               "main"
               "ft";
           }
-         } 
+
+          .main-nav{
+            position: sticky;
+            position: -webkit-sticky; /* For macOS/iOS Safari */
+            top : 0;
+            padding: 20px;
+            align-items: center;
+            text-align: center;
+            background-color: #111;
+          }
+
+          .navLinks {
+            display: inline-block;
+            width: 100px;
+            padding: 10px;
+          }
+
+        } 
 
 /* Mise en forme du contenu */
 
@@ -145,23 +174,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
         #main a:active {
           text-decoration: none;
-          color: white;
-        }
-
-/* Mise en forme du texte de la barre de navigation */
-
-        .navLinks {
-          display: flex;
-          font-family: Verdana, Arial, Helvetica, sans-serif;
-          font-size: 1.7em;
-          justify-content: left;
-          align-items: center;
-          padding: 10px;
-          text-decoration: none;
-          color: grey
-        }
-
-        .navLinks:hover {
           color: white;
         }
 
