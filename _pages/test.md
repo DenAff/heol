@@ -65,7 +65,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         .wrapper{
           display: grid;
           grid-template-columns: 1fr 3fr;
-          grid-auto-rows: auto;
+          grid-template-rows: @bar-height auto;
           grid-template-areas: 
             "nav hd"
             "nav main"
@@ -77,7 +77,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         @media (max-width: 600px) {
           .wrapper{
             grid-template-columns: auto;
-            grid-auto-rows: auto;
+            grid-template-rows: auto;
             grid-template-areas: 
               "nav"
               "main"
