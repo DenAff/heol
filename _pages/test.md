@@ -1,5 +1,6 @@
 ---
 title: Test
+layout: test
 permalink: test.html
 ---
 
@@ -162,10 +163,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
             <div class='text'>
               <a href="/index"> {{ site.title }} </a>
-            </div>
-
-            <div class='text'>
-              <a href="/index">Home</a>
             </div>
 
             <div class='text'>

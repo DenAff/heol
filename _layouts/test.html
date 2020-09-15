@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <!--
+    La balise suivante permet de déclarer la table d'encodage des caractères.
+    la table UTF-8, permet théoriquement d'encoder toutes les langues, du français au japonais en passant par l'arabe.
+    -->
+    <meta charset="utf-8">
+    
+    <!--
+    La balise suivante permet de ne pas indexer mon site web et bien plus.
+    Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#max-image-preview
+    -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, notranslate, noimageindex">
+    
+    <!-- Permet de controler la dimenssion d'affichage de ma page web et le zoom dans celle-ci -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <!-- Titre ddu site web dans le navigateeur web -->
+    <title>{{ site.title }} | {{ page.title }}</title>
+
+  </head>
+
+  <body>
+
+    {{ content }}
+
+  </body>
+
+</html> 
