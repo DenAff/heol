@@ -110,7 +110,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
           .navLinks {
             display: inline-block;
-            padding: 10px;
+            padding: 0px 30px;
           }
 
         } 
