@@ -7,22 +7,22 @@ permalink: test.html
 
   <head>
 
-    <!--
-    La balise suivante permet de déclarer la table d'encodage des caractères.
-    la table UTF-8, permet théoriquement d'encoder toutes les langues, du français au japonais en passant par l'arabe.
-    -->
+<!--
+La balise suivante permet de déclarer la table d'encodage des caractères.
+la table UTF-8, permet théoriquement d'encoder toutes les langues, du français au japonais en passant par l'arabe.
+-->
     <meta charset="utf-8">
     
-    <!--
-    La balise suivante permet de ne pas indexer mon site web et bien plus.
-    Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#max-image-preview
-    -->
+<!--
+La balise suivante permet de ne pas indexer mon site web et bien plus.
+Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#max-image-preview
+-->
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, notranslate, noimageindex">
     
-    <!-- Permet de controler la dimenssion d'affichage de ma page web et le zoom dans celle-ci -->
+<!-- Permet de controler la dimenssion d'affichage de ma page web et le zoom dans celle-ci -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-    <!-- Titre ddu site web dans le navigateeur web -->
+<!-- Titre ddu site web dans le navigateeur web -->
     <title>{{ site.title }} | {{ page.title }}</title>
 
       <style>
@@ -32,12 +32,16 @@ permalink: test.html
             margin: 0;
         }
 
+/* Mise en forme de la grille du site */
+
         .header{
           grid-area: hd;
+          /*
           background: url('{{ site.baseurl }}/_assets/images/home/travis-grossen.jpg');      
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
+          */
           color: #ffffff;
           padding: 50px;
         }
@@ -64,10 +68,12 @@ permalink: test.html
           grid-template-columns: 1fr 1fr 3fr 1fr;
           grid-auto-rows: auto;
           grid-template-areas: 
-            "hd hd hd hd"
+            "sd hd hd hd"
             "sd main main main"
             "sd ft ft ft";
         }
+
+/* Mise en forme du contenu */
 
         .text {
           display: flex;
@@ -89,7 +95,7 @@ permalink: test.html
           font-size: 25px;
           color: black;
           line-height: 1;
-          font-family: Arial;
+          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
           font-weight: 00;
         }
 
@@ -104,6 +110,8 @@ permalink: test.html
           font-family: Arial;
           font-weight: 200;
         }        
+
+/* Mise en forme des liens hypertexte */
 
         a:link {
           text-decoration: none;
@@ -130,6 +138,14 @@ permalink: test.html
           color: white;
         }
 
+/* Mise en forme des puces pour les listes */
+
+        ul {list-style: none}
+        li::before {content: "⨉"; color: grey; font-size: 10px;
+          display: inline-block; width: 1.2em; height: 2em;
+          margin-left: -1em
+          }
+
       </style>
 
   </head>
@@ -142,11 +158,12 @@ permalink: test.html
 
         <div class='wrapper'>
 
-          <div class='header'>
-            <div class='text'> {{ site.title }} </div>
-          </div>
-
           <div id="sidebar" class='sidebar'>
+
+            <div class='text'>
+              <a href="/index"> {{ site.title }} </a>
+            </div>
+
             <div class='text'>
               <a href="/index">Home</a>
             </div>
