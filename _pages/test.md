@@ -51,10 +51,9 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           padding: 50px; 
         }
 
-        .sidebar{
-          grid-area: sd;
+        .main-nav{
+          grid-area: nav;
           background-color: #111;
-          padding-top: 30%;
         }
 
         .wrapper{
@@ -62,9 +61,9 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           grid-template-columns: 1fr 3fr;
           grid-auto-rows: auto;
           grid-template-areas: 
-            "sd hd"
-            "sd main"
-            "sd ft";
+            "nav hd"
+            "nav main"
+            "nav ft";
         }
 
 /* Mise en forme de la grille du site pour petit écran */
@@ -74,7 +73,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             grid-template-columns: auto;
             grid-auto-rows: auto;
             grid-template-areas: 
-              "sd"
+              "nav"
               "main"
               "ft";
           }
@@ -130,7 +129,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           color: grey;
         }
 
-        #sidebar a:hover {
+        #nav a:hover {
           text-decoration: none;
           color: white;
         }
@@ -165,7 +164,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
         <div class='wrapper'>
 
-          <div id="sidebar" class='sidebar'>
+          <div id="nav" class='main-nav'>
 
             <div class='text'>
               <a href="/index"> {{ site.title }} </a>
