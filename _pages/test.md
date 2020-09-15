@@ -59,12 +59,13 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           position: sticky;
           position: -webkit-sticky; /* For macOS/iOS Safari */
           top : 0;
+          padding: 10px;
           background-color: #111;
         }
 
         .wrapper{
           display: grid;
-          grid-template-columns: 0fr 3fr;
+          grid-template-columns: auto 3fr;
           grid-template-rows: auto;
           grid-template-areas: 
             "nav hd"
@@ -77,7 +78,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         @media (max-width: 600px) {
           .wrapper{
             grid-template-columns: auto;
-            grid-template-rows: 0fr 3fr 0fr;
+            grid-template-rows: auto 3fr auto;
             grid-template-areas: 
               "nav"
               "main"
@@ -108,7 +109,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           color: black;
           line-height: 1;
           font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
-          font-weight: 00;
+          font-weight: 200;
         }
 
         .footer-text {
@@ -123,21 +124,16 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           font-weight: 200;
         }        
 
-/* Mise en forme des liens hypertexte */
+/* Mise en forme des liens hypertexte #main */
 
-        a:link {
+        #main a:link {
           text-decoration: none;
           color: grey;
         }
 
-        a:visited {
+        #main a:visited {
           text-decoration: none;
           color: grey;
-        }
-
-        #nav a:hover {
-          text-decoration: none;
-          color: white;
         }
 
         #main a:hover {
@@ -145,9 +141,71 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           color: black;
         }
 
-        a:active {
+        #main a:active {
           text-decoration: none;
           color: white;
+        }
+
+/* Mise en forme des liens hypertexte #nav */
+
+        #nav a:link {
+          text-decoration: none;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          padding: 10px;
+          font-size: 50px;
+          color: grey;
+          line-height: 1;
+          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
+          font-weight: 200;
+        }
+
+        #nav a:visited {
+          text-decoration: none;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          padding: 10px;
+          font-size: 50px;
+          color: grey;
+          line-height: 1;
+          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
+          font-weight: 200;
+        }
+
+        #nav a:hover {
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 10px;
+          font-size: 50px;
+          color: white;
+          line-height: 1;
+          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
+          font-weight: 800;
+        }
+
+        #nav a:active {
+          text-decoration: none;
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          padding: 10px;
+          font-size: 50px;
+          color: white;
+          line-height: 1;
+          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
+          font-weight: 200;
+        }
+
+/* Mise en forme des puces pour la barre de navigation */
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
         }
 
 /* Mise en forme des puces pour les listes */
@@ -156,7 +214,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         li::before {content: "⨉"; color: grey; font-size: 10px;
           display: inline-block; width: 1.2em; height: 2em;
           margin-left: -1em
-          }
+        }
 
       </style>
 
@@ -169,26 +227,14 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 -->
 
         <div class='wrapper'>
-
-          <div id="nav" class='main-nav'>
-
-            <div class='text'>
-              <a href="/index"> {{ site.title }} </a>
-            </div>
-
-            <div class='text'>
-              <a href="/cartes">Cartes</a>
-            </div>
-
-            <div class='text'>
-              <a href="/recettes">Recettes</a>
-            </div>
-
-            <div class='text'>
-              <a href="/test">Test</a>
-            </div>
+          <div class='main-nav'>
+          <ul id="nav">
+            <a href="/index"> {{ site.title }} </a>
+            <a href="/cartes">Cartes</a>
+            <a href="/recettes">Recettes</a>
+            <a href="/test">Test</a>
+          </ul>
           </div>
-
           <div id="main" class='content'>
 
             <div class='content-text'>
