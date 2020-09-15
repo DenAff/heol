@@ -92,7 +92,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
           .wrapper{
             grid-template-columns: auto;
-            grid-template-rows: auto 3fr auto;
             grid-template-areas: 
               "nav"
               "main"
@@ -103,7 +102,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             position: sticky;
             position: -webkit-sticky; /* For macOS/iOS Safari */
             top : 0;
-            padding: 20px;
+            padding: 10px;
             align-items: center;
             text-align: center;
             background-color: #111;
@@ -111,7 +110,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
           .navLinks {
             display: inline-block;
-            width: 100px;
             padding: 10px;
           }
 
