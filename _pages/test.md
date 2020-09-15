@@ -42,16 +42,15 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
         .footer{
           grid-area: ft;
-          position: sticky;
-          position: -webkit-sticky; /* For macOS/iOS Safari */
-          bottom: 0;
+    flex-shrink: 0;
           background-color: white;
         }
 
         .content{
           grid-area: main;
           background-color: white;
-          padding: 50px; 
+          padding: 50px;
+           flex: 1 0 auto;
         }
 
         .main-nav{
