@@ -77,7 +77,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         .navLinks {
           display: flex;
           font-family: Verdana, Arial, Helvetica, sans-serif;
-          font-size: 1.7em;
+          font-size: 1em;
           text-decoration: none;
           color: grey
         }
