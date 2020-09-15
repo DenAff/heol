@@ -60,10 +60,8 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           align-items: center;
           text-align: center;
           background-color: #111;
-
-              position: fixed;
-     height: 100%
-           
+          position: fixed;
+          height: 100%  
         }
 
         .wrapper{
@@ -106,7 +104,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             position: sticky;
             position: -webkit-sticky; /* For macOS/iOS Safari */
             top : 0;
-            padding: 10px;
+            padding: 5px;
             align-items: center;
             text-align: center;
             background-color: #111;
@@ -114,7 +112,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
           .navLinks {
             display: inline-block;
-            padding: 0px 30px;
+            padding: 0px 10px;
             font-size: 1em;
           }
 
