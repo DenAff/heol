@@ -60,11 +60,15 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           align-items: center;
           text-align: center;
           background-color: #111;
+
+              position: fixed;
+     height: 100%
+           
         }
 
         .wrapper{
           display: grid;
-          grid-template-columns: auto 3fr;
+          grid-template-columns: 1fr 3fr;
           grid-template-rows: auto;
           grid-template-areas: 
             "nav hd"
@@ -77,7 +81,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         .navLinks {
           display: flex;
           font-family: Verdana, Arial, Helvetica, sans-serif;
-          font-size: 1em;
+          font-size: 1.7em;
           text-decoration: none;
           color: grey
         }
@@ -111,6 +115,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           .navLinks {
             display: inline-block;
             padding: 0px 30px;
+            font-size: 1em;
           }
 
         } 
