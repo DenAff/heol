@@ -59,26 +59,26 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
         .wrapper{
           display: grid;
-          grid-template-columns: 1fr 1fr 3fr 1fr;
+          grid-template-columns: 1fr 3fr;
           grid-auto-rows: auto;
           grid-template-areas: 
-            "sd hd hd hd"
-            "sd main main main"
-            "sd ft ft ft";
+            "sd hd"
+            "sd main"
+            "sd ft";
         }
 
-@media screen and (min-width: 768px)
-{
-  body
-  {
-    grid-template-columns: 1fr 1fr 3fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "sd sd sd sd"
-      "main main main main"
-      "ft ft ft ft";
-  }
+/* Mise en forme de la grille du site pour petit écran */
 
+        @media (max-width: 600px) {
+          .wrapper{
+            grid-template-columns: auto;
+            grid-auto-rows: auto;
+            grid-template-areas: 
+              "sd"
+              "main"
+              "ft";
+          }
+         } 
 
 /* Mise en forme du contenu */
 
