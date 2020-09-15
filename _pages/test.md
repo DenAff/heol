@@ -60,6 +60,8 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           position: -webkit-sticky; /* For macOS/iOS Safari */
           top : 0;
           padding: 10px;
+          align-items: center;
+          text-align: center;
           background-color: #111;
         }
 
@@ -122,7 +124,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           line-height: 1;
           font-family: Arial;
           font-weight: 200;
-        }        
+        }
 
 /* Mise en forme des liens hypertexte #main */
 
@@ -146,69 +148,30 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           color: white;
         }
 
-/* Mise en forme des liens hypertexte #nav */
+/* Mise en forme du texte de la barre de navigation */
 
-        #nav a:link {
-          text-decoration: none;
+        .navLinks {
           display: flex;
+          font-family: Verdana, Arial, Helvetica, sans-serif;
+          font-size: 1.7em;
           justify-content: left;
           align-items: center;
           padding: 10px;
-          font-size: 50px;
-          color: grey;
-          line-height: 1;
-          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
-          font-weight: 200;
+          text-decoration: none;
+          color: grey
         }
 
-        #nav a:visited {
-          text-decoration: none;
-          display: flex;
-          justify-content: left;
-          align-items: center;
-          padding: 10px;
-          font-size: 50px;
-          color: grey;
-          line-height: 1;
-          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
-          font-weight: 200;
-        }
-
-        #nav a:hover {
-          text-decoration: none;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 10px;
-          font-size: 50px;
+        .navLinks:hover {
           color: white;
-          line-height: 1;
-          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
-          font-weight: 800;
         }
 
-        #nav a:active {
-          text-decoration: none;
-          display: flex;
-          justify-content: left;
-          align-items: center;
-          padding: 10px;
-          font-size: 50px;
-          color: white;
-          line-height: 1;
-          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
-          font-weight: 200;
-        }
-
-/* Mise en forme des puces pour la barre de navigation */
+/* Mise en forme des puces pour les listes */
 
         ul {
           list-style-type: none;
           margin: 0;
           padding: 0;
         }
-
-/* Mise en forme des puces pour les listes */
 
         ul {list-style: none}
         li::before {content: "⨉"; color: grey; font-size: 10px;
@@ -227,14 +190,14 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 -->
 
         <div class='wrapper'>
+
           <div class='main-nav'>
-          <ul id="nav">
-            <a href="/index"> {{ site.title }} </a>
-            <a href="/cartes">Cartes</a>
-            <a href="/recettes">Recettes</a>
-            <a href="/test">Test</a>
-          </ul>
+            <a class='navLinks' href="/index"> {{ site.title }} </a>
+            <a class='navLinks' href="/cartes">Cartes</a>
+            <a class='navLinks' href="/recettes">Recettes</a>
+            <a class='navLinks' href="/test">Test</a>
           </div>
+
           <div id="main" class='content'>
 
             <div class='content-text'>
@@ -243,21 +206,21 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
   Liste des posts, trié par ordre alphabétique
 -->
 
-<ul class="docs-nav">
-{% assign posts_list = site.posts | sort:"title" %}
-{% assign last_cat = "" %}
-{% for posts in posts_list %}
-    {% if posts.title != "" %}
-        {% for category in posts.categories limit:1 %}
-            {% if category != last_cat %}
-    <li><strong>{{ category | replace: "-", " " | capitalize  }}</strong></li>
-            {% endif %}
-            {% assign last_cat = category %}
+        <ul class="docs-nav">
+        {% assign posts_list = site.posts | sort:"title" %}
+        {% assign last_cat = "" %}
+        {% for posts in posts_list %}
+          {% if posts.title != "" %}
+            {% for category in posts.categories limit:1 %}
+              {% if category != last_cat %}
+        <li><strong>{{ category | replace: "-", " " | capitalize  }}</strong></li>
+          {% endif %}
+          {% assign last_cat = category %}
         {% endfor %}
-    <li><a href="{{ posts.slug }}" class="cc-active">{{ posts.title }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
+        <li><a href="{{ posts.slug }}" class="cc-active">{{ posts.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+        </ul>
 
             </div>
 
