@@ -53,6 +53,9 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
         .main-nav{
           grid-area: nav;
+          position: sticky;
+          position: -webkit-sticky; /* For macOS/iOS Safari */
+          top : 0;
           background-color: #111;
         }
 
