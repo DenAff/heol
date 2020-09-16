@@ -2,6 +2,7 @@
 title: Aiguillettes de poulet
 layout: default
 permalink: /:title
+categories: plats
 ---
 
 # {{ page.title }}
