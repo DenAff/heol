@@ -43,7 +43,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         .footer{
           grid-area: ft;
           position: sticky;
-          position: -webkit-sticky; /* For macOS/iOS Safari */
           bottom: 0;
           background-color: white;
         }
@@ -102,7 +101,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
           .main-nav{
             position: sticky;
-            position: -webkit-sticky; /* For macOS/iOS Safari */
             top : 0;
             padding: 5px;
             align-items: center;
