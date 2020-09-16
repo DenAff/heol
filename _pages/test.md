@@ -59,8 +59,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           align-items: center;
           text-align: center;
           background-color: #111;
-          position: fixed;
-          height: 100%  
         }
 
         .wrapper{
