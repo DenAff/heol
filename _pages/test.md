@@ -73,7 +73,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           grid-template-columns: auto 1fr;
           grid-template-rows: 0.3fr 1fr auto;
           grid-template-areas: 
-            "hd hd"
+            "nav hd"
             "nav main"
             "nav ft";
         }
