@@ -63,7 +63,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           padding: 30px;
           align-items: center;
           text-align: center;
-          background-color: #111;
+          background-color: white;
         }
 
         .wrapper{
@@ -73,7 +73,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           grid-template-columns: auto 1fr;
           grid-template-rows: 0.3fr 1fr auto;
           grid-template-areas: 
-            "nav hd"
+            "hd hd"
             "nav main"
             "nav ft";
         }
@@ -88,7 +88,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         }
 
         .navLinks:hover {
-          color: white;
+          color: black;
         }
 
         .navLinksLogo {
@@ -96,7 +96,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           font-size: 1.7em;
           font-weight: 800;
           text-decoration: none;
-          color: white
+          color: black;
         }
 
         .navLinksLogo:hover {
@@ -110,10 +110,10 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
           .wrapper{
             grid-template-columns: auto;
-            grid-template-rows: 0.3fr auto 1fr auto;
+            grid-template-rows: auto 0.3fr 1fr auto;
             grid-template-areas:
-              "hd"
               "nav"
+              "hd"
               "main"
               "ft";
           }
@@ -122,7 +122,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             padding: 5px;
             align-items: center;
             text-align: center;
-            background-color: #111;
+            background-color: white;
           }
 
           .navLinks {
