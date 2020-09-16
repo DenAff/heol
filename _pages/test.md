@@ -43,7 +43,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           background-position: center; /* Center the image */
           background-repeat: repeat; /* Do not repeat the image */
           background-size: contain; /* Resize the background image to cover the entire container */
-          background-color: black;
+          background-color: white;
         }
 
         .footer{
@@ -122,7 +122,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             padding: 5px;
             align-items: center;
             text-align: center;
-            background-color: white;
           }
 
           .navLinks {
