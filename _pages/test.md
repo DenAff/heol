@@ -37,13 +37,16 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 /* Mise en forme de la grille du site */
 
         .header{
-          grid-area: hd;
-          background-color: white;
+          grid-area: hd;   
+          background-image: url('{{ site.baseurl }}/_assets/images/home/pattern.jpg');
+          background-position: center; /* Center the image */
+          background-repeat: repeat; /* Do not repeat the image */
+          background-size: contain; /* Resize the background image to cover the entire container */
+          background-color: black;
         }
 
         .footer{
           grid-area: ft;
-        
           background-color: white;
         }
 
@@ -66,8 +69,8 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           height: 100vh;
           width: 100vw;
           display: grid;
-          grid-template-columns: 1fr 3fr;
-          grid-template-rows: auto;
+          grid-template-columns: auto 1fr;
+          grid-template-rows: 0.3fr 1fr auto;
           grid-template-areas: 
             "nav hd"
             "nav main"
@@ -94,8 +97,10 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
           .wrapper{
             grid-template-columns: auto;
+            grid-template-rows: auto 0.3fr 1fr auto;
             grid-template-areas: 
               "nav"
+              "hd"
               "main"
               "ft";
           }
@@ -207,6 +212,9 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             <a class='navLinks' href="/recettes">Recettes</a>
             <a class='navLinks' href="/test">Test</a>
           </div>
+
+        <div class='header'>
+        </div>
 
           <div id="main" class='content'>
 
