@@ -203,7 +203,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           color: white;
           background: black;
           margin: -10px;
-          padding: 5px;
+          padding: 5px 10px;
           line-height: 4;
         }
 
