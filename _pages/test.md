@@ -126,6 +126,12 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             font-size: 1em;
           }
 
+          .navLinksLogo {
+            display: inline-block;
+            padding: 0px 10px;
+            font-size: 1em;
+          }
+
         } 
 
 /* Mise en forme du contenu */
