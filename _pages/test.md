@@ -75,7 +75,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           grid-template-areas: 
             "hd hd"
             "nav main"
-            "nav ft";
+            "ft ft";
         }
 
 /* Mise en forme du texte de la barre de navigation */
