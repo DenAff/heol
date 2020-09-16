@@ -97,10 +97,10 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
           .wrapper{
             grid-template-columns: auto;
-            grid-template-rows: auto 0.3fr 1fr auto;
-            grid-template-areas: 
-              "nav"
+            grid-template-rows: 0.3fr auto 1fr auto;
+            grid-template-areas:
               "hd"
+              "nav"
               "main"
               "ft";
           }
