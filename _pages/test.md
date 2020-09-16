@@ -24,7 +24,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
 <!-- Titre ddu site web dans le navigateeur web -->
-    <title>{{ site.title | downcase | capitalize }} | {{ page.title }}</title>
+    <title> {{ site.title | downcase | capitalize }} </title>
 
       <style>
 
