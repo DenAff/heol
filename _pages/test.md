@@ -201,7 +201,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         <div class='wrapper'>
 
           <div class='main-nav'>
-            <a class='navLinksLogo' href="/index"> {{ site.title | downcase |capitalize }} </a>
+            <a class='navLinksLogo' href="/index"> {{ site.title | upcase }} </a>
             <a class='navLinks' href="/cartes">Cartes</a>
             <a class='navLinks' href="/recettes">Recettes</a>
             <a class='navLinks' href="/test">Test</a>
@@ -260,7 +260,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           </div>
 
           <div class='footer'>
-            <div class='footer-text'> {{ site.title | downcase | capitalize }} | {{ page.title }} </div>
+            <div class='footer-text'> {{ site.title | upcase }} | {{ page.title }} </div>
           </div>
 
         </div>
