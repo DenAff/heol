@@ -87,17 +87,22 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           color: grey
         }
 
+        .navLinks:hover {
+          color: white;
+        }
+
         .navLinksLogo {
           display: flex;
           font-size: 1.7em;
           font-weight: 800;
           text-decoration: none;
-          color: grey
+          color: white
         }
 
-        .navLinks:hover {
-          color: white;
+        .navLinksLogo:hover {
+          color: grey;
         }
+       
 
 /* Mise en forme de la grille du site pour petit écran */
 
