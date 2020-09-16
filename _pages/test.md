@@ -32,6 +32,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
             padding: 0;
             margin: 0;
             overflow: hidden;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
         }
 
 /* Mise en forme de la grille du site */
@@ -81,8 +82,15 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
         .navLinks {
           display: flex;
-          font-family: Verdana, Arial, Helvetica, sans-serif;
           font-size: 1.7em;
+          text-decoration: none;
+          color: grey
+        }
+
+        .navLinksLogo {
+          display: flex;
+          font-size: 1.7em;
+          font-weight: 800;
           text-decoration: none;
           color: grey
         }
@@ -122,27 +130,14 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
 /* Mise en forme du contenu */
 
-        .text {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          padding: 20px;
-          font-size: 30px;
-          color: white;
-          line-height: 1;
-          font-family: "Lato", sans-serif;
-          font-weight: 200;
-        }
-
         .content-text {
           display: flex;
           justify-content: left;
           align-items: center;
           padding: 10px;
-          font-size: 25px;
+          font-size: 14pt;
           color: black;
           line-height: 1;
-          font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt;
           font-weight: 200;
         }
 
@@ -154,7 +149,6 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           font-size: 10px;
           color: grey;
           line-height: 1;
-          font-family: Arial;
           font-weight: 200;
         }
 
@@ -207,7 +201,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         <div class='wrapper'>
 
           <div class='main-nav'>
-            <a class='navLinks' href="/index"> {{ site.title }} </a>
+            <a class='navLinksLogo' href="/index"> {{ site.title }} </a>
             <a class='navLinks' href="/cartes">Cartes</a>
             <a class='navLinks' href="/recettes">Recettes</a>
             <a class='navLinks' href="/test">Test</a>
@@ -224,21 +218,21 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
   Liste des posts, trié par ordre alphabétique
 -->
 
-        <ul class="docs-nav">
-        {% assign posts_list = site.posts | sort:"title" %}
-        {% assign last_cat = "" %}
-        {% for posts in posts_list %}
-          {% if posts.title != "" %}
-            {% for category in posts.categories limit:1 %}
-              {% if category != last_cat %}
-        <li><strong>{{ category | replace: "-", " " | capitalize  }}</strong></li>
-          {% endif %}
-          {% assign last_cat = category %}
-        {% endfor %}
-        <li><a href="{{ posts.slug }}" class="cc-active">{{ posts.title }}</a></li>
-        {% endif %}
-        {% endfor %}
-        </ul>
+              <ul class="docs-nav">
+              {% assign posts_list = site.posts | sort:"title" %}
+              {% assign last_cat = "" %}
+              {% for posts in posts_list %}
+                {% if posts.title != "" %}
+                  {% for category in posts.categories limit:1 %}
+                    {% if category != last_cat %}
+              <li><strong>{{ category | replace: "-", " " | capitalize  }}</strong></li>
+                {% endif %}
+                {% assign last_cat = category %}
+              {% endfor %}
+              <li><a href="{{ posts.slug }}" class="cc-active">{{ posts.title }}</a></li>
+              {% endif %}
+              {% endfor %}
+              </ul>
 
             </div>
 
