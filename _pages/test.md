@@ -206,6 +206,17 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           line-height: 4;
         }
 
+.conteneur
+{
+position: relative;
+}
+
+.conteneur iframe
+{
+width: 100%;
+height: 600px;
+}
+
       </style>
 
   </head>
@@ -257,9 +268,9 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 <!--
   La carte de nos lieux de sorties à Paris
 -->
-
+<div class="conteneur">
             <iframe
-                width="100%" height="600px" allowfullscreen
+                allowfullscreen
                 src="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924?scale
                 Control=true&miniMap=false&scrollWheelZoom=true&zoom
                 Control=false&allowEdit=false&more
@@ -270,7 +281,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
                 Control=true&measureControl=false&editinosm
                 Control=false">
             </iframe>
-
+  </div>
             <p style="text-align:center">
              <a href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
             </p>
