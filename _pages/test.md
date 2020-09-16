@@ -55,7 +55,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           grid-area: main;
           overflow-y: scroll;
           background-color: white;
-          padding: 50px;
+          padding: 0px 50px;
         }
 
         .main-nav{
@@ -73,7 +73,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           grid-template-columns: auto 1fr;
           grid-template-rows: 0.3fr 1fr auto;
           grid-template-areas: 
-            "nav hd"
+            "hd hd"
             "nav main"
             "nav ft";
         }
