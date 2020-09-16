@@ -2,6 +2,7 @@
 title: Carbonara romaine
 layout: default
 permalink: /:title
+categories: plats
 ---
 
 # {{ page.title }}

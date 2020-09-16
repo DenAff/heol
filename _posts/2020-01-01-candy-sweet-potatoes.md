@@ -2,6 +2,7 @@
 title: Candy sweep potatoes
 layout: default
 permalink: /:title
+categories: plats
 ---
 
 # {{ page.title }}

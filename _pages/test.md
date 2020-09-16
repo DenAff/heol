@@ -199,6 +199,14 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           margin-left: -1em
         }
 
+        ul li-category {
+          color: white;
+          background: black;
+          margin: -10px;
+          padding: 5px;
+          line-height: 4;
+        }
+
       </style>
 
   </head>
@@ -236,7 +244,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
                 {% if posts.title != "" %}
                   {% for category in posts.categories limit:1 %}
                     {% if category != last_cat %}
-              <li><strong>{{ category | replace: "-", " " | capitalize  }}</strong></li>
+              <li-category><strong>{{ category | replace: "-", " " | capitalize  }}</strong></li-category>
                 {% endif %}
                 {% assign last_cat = category %}
               {% endfor %}
