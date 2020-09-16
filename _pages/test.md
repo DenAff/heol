@@ -31,6 +31,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         body,html {
             padding: 0;
             margin: 0;
+            overflow: hidden;
         }
 
 /* Mise en forme de la grille du site */
@@ -42,13 +43,13 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
 
         .footer{
           grid-area: ft;
-          position: sticky;
-          bottom: 0;
+        
           background-color: white;
         }
 
         .content{
           grid-area: main;
+          overflow-y: scroll;
           background-color: white;
           padding: 50px;
         }
@@ -62,6 +63,8 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
         }
 
         .wrapper{
+          height: 100vh;
+          width: 100vw;
           display: grid;
           grid-template-columns: 1fr 3fr;
           grid-template-rows: auto;
