@@ -1,7 +1,7 @@
 ---
 title: Carbonara romaine
 layout: default
-permalink: /recettes/:title
+permalink: /:title
 categories: plats
 ---
 

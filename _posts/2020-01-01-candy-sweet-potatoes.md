@@ -1,7 +1,7 @@
 ---
 title: Candy sweep potatoes
 layout: default
-permalink: /recettes/:title
+permalink: /:title
 categories: plats
 ---
 
