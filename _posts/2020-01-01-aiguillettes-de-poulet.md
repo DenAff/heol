@@ -1,6 +1,6 @@
 ---
 title: Aiguillettes de poulet
-layout: posts
+layout: default
 permalink: /recettes/:title
 categories: plats
 ---

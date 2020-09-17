@@ -1,9 +1,11 @@
 ---
 title: Candy sweep potatoes
 layout: default
-permalink: /:title
+permalink: /recettes/:title
 categories: plats
 ---
+
+{::options parse_block_html="true" /}
 
 <div id="main" class='content'>
 
