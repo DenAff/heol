@@ -1,0 +1,197 @@
+      <style>
+
+        body,html {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+
+/* Mise en forme de la grille du site */
+
+        .header{
+          grid-area: hd;   
+          background-image: url('{{ site.baseurl }}/_assets/images/home/pattern.jpg');
+          background-position: center; /* Center the image */
+          background-repeat: repeat; /* Do not repeat the image */
+          background-size: contain; /* Resize the background image to cover the entire container */
+          background-color: white;
+          border-top: 15px solid white;
+        }
+
+        .footer{
+          grid-area: ft;
+          background-color: white;
+        }
+
+        .content{
+          grid-area: main;
+          overflow-y: scroll;
+          background-color: white;
+          padding: 0px 50px;
+        }
+
+        .main-nav{
+          grid-area: nav;
+          padding: 30px;
+          align-items: center;
+          text-align: center;
+          background-color: white;
+        }
+
+        .wrapper{
+          height: 100vh;
+          width: 100vw;
+          display: grid;
+          grid-template-columns: auto 1fr;
+          grid-template-rows: 0.3fr 1fr auto;
+          grid-template-areas: 
+            "hd hd"
+            "nav main"
+            "ft ft";
+        }
+
+/* Mise en forme du texte de la barre de navigation */
+
+        .navLinks {
+          display: flex;
+          font-size: 1.7em;
+          text-decoration: none;
+          color: grey
+        }
+
+        .navLinks:hover {
+          color: black;
+        }
+
+        .navLinksLogo {
+          display: flex;
+          font-size: 1.7em;
+          font-weight: 800;
+          text-decoration: none;
+          color: black;
+        }
+
+        .navLinksLogo:hover {
+          color: grey;
+        }
+       
+
+/* Mise en forme de la grille du site pour petit écran */
+
+        @media (max-width: 600px) {
+
+          .wrapper{
+            grid-template-columns: auto;
+            grid-template-rows: auto 0.3fr 1fr auto;
+            grid-template-areas:
+              "nav"
+              "hd"
+              "main"
+              "ft";
+          }
+
+          .header{
+            border-top: 0px;
+          }
+
+          .main-nav{
+            padding: 5px;
+            align-items: center;
+            text-align: center;
+          }
+
+          .navLinks {
+            display: inline-block;
+            padding: 0px 10px;
+            font-size: 1em;
+          }
+
+          .navLinksLogo {
+            display: inline-block;
+            padding: 0px 10px;
+            font-size: 1em;
+          }
+
+        } 
+
+/* Mise en forme du contenu */
+
+        .content-text {
+          display: flex;
+          justify-content: left;
+          align-items: center;
+          padding: 10px;
+          font-size: 14pt;
+          color: black;
+          line-height: 1;
+          font-weight: 200;
+        }
+
+        .footer-text {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 20px;
+          font-size: 10px;
+          color: grey;
+          line-height: 1;
+          font-weight: 200;
+        }
+
+/* Mise en forme des liens hypertexte #main */
+
+        #main a:link {
+          text-decoration: none;
+          color: grey;
+        }
+
+        #main a:visited {
+          text-decoration: none;
+          color: grey;
+        }
+
+        #main a:hover {
+          text-decoration: none;
+          color: black;
+        }
+
+        #main a:active {
+          text-decoration: none;
+          color: white;
+        }
+
+/* Mise en forme des puces pour les listes */
+
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+        }
+
+        ul {list-style: none}
+        li::before {content: "⨉"; color: grey; font-size: 10px;
+          display: inline-block; width: 1.2em; height: 2em;
+          margin-left: -1em
+        }
+
+        ul li-category {
+          color: white;
+          background: black;
+          margin: -10px;
+          padding: 5px 10px;
+          line-height: 4;
+        }
+
+/* Mise en forme iframes */
+
+        .conteneur {
+          position: relative;
+        }
+
+        .conteneur iframe {
+          width: 100%;
+          height: 600px;
+        }
+
+      </style>
