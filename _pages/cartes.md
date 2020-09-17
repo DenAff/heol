@@ -1,61 +1,31 @@
 ---
 title: Cartes
-layout: default
+layout: test
 permalink: cartes.html
 ---
-<html>
 
-<head>
-
-<style>
-
-body, html {
-  height: 30%;
-  margin: 0;
-}
-
-.bg {
-  /* The image used */
-  background-image: url('{{ site.baseurl }}/_assets/images/home/travis-grossen.jpg');
-
-  /* Full height */
-  height: 50%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-</style>
-
-</head>
-
-<body>
+<div id="main" class='content'>
 
 <!--
   La carte de nos lieux de sorties à Paris
 -->
+            <div class="conteneur">
+              <iframe
+                allowfullscreen
+                src="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924?scale
+                Control=true&miniMap=false&scrollWheelZoom=true&zoom
+                Control=false&allowEdit=false&more
+                Control=false&search
+                Control=true&tilelayersControl=false&embedControl=true&datalayers
+                Control=true&onLoadPanel=none&captionBar=false&fullscreen
+                Control=true&locate
+                Control=true&measureControl=false&editinosm
+                Control=false">
+              </iframe>
+            </div>
 
-<div class="parent">
+            <p style="text-align:center">
+             <a href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
+            </p>
 
-    <iframe
-        width="90%" height="600px" allowfullscreen
-        src="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924?scale
-        Control=true&miniMap=false&scrollWheelZoom=true&zoom
-        Control=false&allowEdit=false&moreControl=false&search
-        Control=true&tilelayersControl=false&embedControl=true&datalayers
-        Control=true&onLoadPanel=none&captionBar=false&fullscreen
-        Control=true&locateControl=true&measureControl=false&editinosm
-        Control=false">
-    </iframe>
-        
-</div>
-
-    <p style="text-align:center">
-        <a id="a1" href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
-    </p>
-
-</body>
-
-</html>
+</div>    

@@ -4,7 +4,7 @@ layout: test
 permalink: test.html
 ---
 
- <div id="main" class='content'>
+<div id="main" class='content'>
 
             <div class='content-text'>
 
@@ -52,5 +52,4 @@ permalink: test.html
              <a href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
             </p>
 
-        </div>
-       
+</div>    
