@@ -1,6 +1,6 @@
 ---
 title: Cartes
-layout: test
+layout: default
 permalink: cartes.html
 ---
 

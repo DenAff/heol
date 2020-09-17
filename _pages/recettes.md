@@ -1,6 +1,6 @@
 ---
 title: Recettes
-layout: test
+layout: default
 permalink: recettes.html
 ---
 
