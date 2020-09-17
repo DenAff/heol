@@ -5,6 +5,8 @@ permalink: /:title
 categories: plats
 ---
 
+<div id="main" class='content'>
+
 # {{ page.title }}
 
 - 1 oeuf par personne + 1 oeuf pour le plat.
@@ -48,3 +50,5 @@ Je te donne un autre truc pour être certain que tes oeufs+parmesan soient bien 
 Une fois que tu as mis tes lasagnette dans tes oeufs+parmesan, tu mets ta pancetta par-dessus tout ça et tu mélanges. Délicatement j’ai dit!
 Tu verses tout ça dans tes jolies assiettes CREUSES, et si tu adores le parmesan comme moi, tu peux même en rajouter un peu frais dessus.
 C’est délicieux, tout le monde aime, c’est un cadeau que l’Italie et Rome ont généreusement fait à l’Humanité.
+
+</div>

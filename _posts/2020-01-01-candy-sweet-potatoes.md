@@ -5,6 +5,8 @@ permalink: /:title
 categories: plats
 ---
 
+<div id="main" class='content'>
+
 # {{ page.title }}
 
 1. Cuisson vapeur 9min.
@@ -13,3 +15,5 @@ categories: plats
 pour faire caraméliser
 
 3. Cuisson four 1h à 205°c
+
+</div>
