@@ -9,7 +9,6 @@ categories: plats
 
 <div id="main" class='content'>
 
-
 # {{ page.title }}
 
 Ingrédients pour 4 personnes
