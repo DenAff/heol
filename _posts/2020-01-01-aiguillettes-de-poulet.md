@@ -1,7 +1,7 @@
 ---
 title: Aiguillettes de poulet
 layout: default
-permalink: /recettes/:title
+permalink: /:title
 categories: plats
 ---
 
