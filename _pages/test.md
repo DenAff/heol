@@ -44,6 +44,7 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
           background-repeat: repeat; /* Do not repeat the image */
           background-size: contain; /* Resize the background image to cover the entire container */
           background-color: white;
+          border-top: 20px solid white;
         }
 
         .footer{
@@ -116,6 +117,10 @@ Plus d'info sur https://developers.google.com/search/reference/robots_meta_tag#m
               "hd"
               "main"
               "ft";
+          }
+
+          .header{
+            border-top: 0px;
           }
 
           .main-nav{
