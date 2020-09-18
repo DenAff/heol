@@ -1,9 +1,9 @@
 ---
-title: Aiguillettes de poulet
+title: Bicarbonate
 layout: default
 custom_css: posts
 permalink: /:title
-categories: plats
+categories: astuces
 ---
 
 {::options parse_block_html="true" /}
@@ -12,7 +12,7 @@ categories: plats
 
 # {{ page.title }}
 
-##### Ingrédients pour 4 personnes
+Ingrédients pour 4 personnes
 
 - 500 g de blancs de poulet (élevé en pleine nature !)
 - 3 petits pains suédois complet
@@ -20,7 +20,9 @@ categories: plats
 - 2 oeufs bios
 - sel
 
-##### La préparation
+Temps de préparation : 1 heure
+Niveau : facile
+Coût : économique
 
 1. Préparez les aiguillettes de poulet. Mixez les petits pains suédois et les graines de courge durant 3 minutes, jusqu'à ce qu'il se forme une poudre couleur pistache. Versez cette chapelure dans une assiette creuse.
 2. Prenez une assiette dans laquelle vous aurez battu les oeufs et une autre dans laquelle vous disposerez la farine.

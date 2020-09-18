@@ -22,9 +22,16 @@
     <!-- Titre ddu site web dans le navigateeur web -->
         <title> {{ site.title | downcase | capitalize }} </title>
     
-    <!-- Ma sidebar en mode css -->
+    <!-- Ma feuille de style pour la grille du site -->
       {% include style-default.html %}
     
+    <!-- Ma feuille de style pour les posts --> 
+      {% if page.custom_css %}
+      {% for stylesheet in page.custom_css %}
+      <link rel="stylesheet" href="{{ site.baseurl }}/_assets/css/{{ stylesheet }}.css">
+      {% endfor %}
+      {% endif %}
+
       </head>
     
       <body>
@@ -37,8 +44,9 @@
     
               <div class='main-nav'>
                 <a class='navLinksLogo' href="/index"> {{ site.title | upcase }} </a>
-                <a class='navLinks' href="/cartes">Cartes</a>
+                <a class='navLinks' href="/astuces">Astuces</a>
                 <a class='navLinks' href="/recettes">Recettes</a>
+                <a class='navLinks' href="/cartes">Cartes</a>
               </div>
     
             <div class='header'>
