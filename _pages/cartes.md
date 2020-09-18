@@ -9,7 +9,7 @@ permalink: cartes.html
 <!--
   La carte de nos lieux de sorties à Paris
 -->
-
+            <p>
             <div class="conteneur">
 
               <iframe
@@ -27,6 +27,7 @@ permalink: cartes.html
               </iframe>
             
             </div>
+            </p>
 
             <p style="text-align:center">
              <a href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
