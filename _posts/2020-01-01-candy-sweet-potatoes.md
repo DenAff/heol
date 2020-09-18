@@ -1,6 +1,7 @@
 ---
 title: Candy sweep potatoes
 layout: default
+custom_css: posts
 permalink: /:title
 categories: plats
 ---
@@ -11,11 +12,26 @@ categories: plats
 
 # {{ page.title }}
 
-1. Cuisson vapeur 9min.
+##### Ingrédients
 
-2. Rajouter le whisky sur les pommes de terre + du beurre + du sucre
-pour faire caraméliser
+- patate douce
+- beurre
+- sucre
+- whisky
 
-3. Cuisson four 1h à 205°c
+##### La préparation
+
+<ul id="prepa">
+
+<section id="categories" markdown="1">
+
+- Cuisson vapeur 9min.<br><br>
+- Rajouter le whisky sur les pommes de terre + du beurre + du sucre
+pour faire caraméliser.<br><br>
+- Cuisson four 1h à 205°c.
+
+</section>
+
+</ul>
 
 </div>

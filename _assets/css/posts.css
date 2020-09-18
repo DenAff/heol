@@ -13,18 +13,18 @@ ul {list-style-type: none}
 }
 
 li {
-    list-style-type: square;
+    list-style: inside;
+    list-style-type: circle;
+    font-size: 15px;
 }
 
-li-prepa {
-    list-style-type: square;
+#prepa li 
+{
+    list-style: outside;
+    list-style-type: decimal;
+    font-size: 18px;
 }
 
 h5 {
     color: grey;
-  }
-
-  .blue {
-    color: blue;
-  }
-  
+}
