@@ -9,8 +9,12 @@ permalink: cartes.html
 <!--
   La carte de nos lieux de sorties à Paris
 -->
+
             <div class="conteneur">
+
+            <figure class="video_container">
               <iframe
+              frameborder="0"
                 allowfullscreen
                 src="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924?scale
                 Control=true&miniMap=false&scrollWheelZoom=true&zoom
@@ -22,6 +26,8 @@ permalink: cartes.html
                 Control=true&measureControl=false&editinosm
                 Control=false">
               </iframe>
+            </figure>
+            
             </div>
 
             <p style="text-align:center">

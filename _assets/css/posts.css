@@ -6,12 +6,25 @@ ul {
     padding: 0;
 }
 
-ul {list-style-type: circle}
+ul {list-style-type: none}
     li::before {content: ""; color: red; font-size: 0px;
         display: inline-block; width: 0em; height: 0em;
         margin-left: 0em
 }
 
+li {
+    list-style-type: square;
+}
+
+li-prepa {
+    list-style-type: square;
+}
+
 h5 {
     color: grey;
   }
+
+  .blue {
+    color: blue;
+  }
+  
