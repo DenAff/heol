@@ -1,14 +1,10 @@
 ---
 title: Carbonara romaine
-layout: default
+layout: posts
 custom_css: posts
 permalink: /:title
 categories: plats
 ---
-
-{::options parse_block_html="true" /}
-
-<div id="main" class='content'>
 
 # {{ page.title }}
 
@@ -28,10 +24,8 @@ categories: plats
 
 <section id="categories" markdown="1">
 
-**La casserole est un dance floor**
-
 - Tu prends une grande casserole, et tu mets un grand volume d’eau dedans.
-STOP! Tu ne sales pas tout de suite!<br><br>
+**STOP!** Tu ne sales pas tout de suite!<br><br>
 - Tu mets un grand volume d’eau parce que la Pasta, elle a besoin de tourbillonner dans l’eau, elle veut de la place pour danser. Tu aimes aller sur un dance floor plein à craquer où tu ne peux même pas bouger? Non? Et bien la pasta, c’est pareil. Elle a la couleur de l’or, ce n’est pas pour rien. Elle est précieuse, alors tu la combles de bonheur en lui laissant de la place pour qu’elle s’amuse. Tu couvres et tu attends que l’eau bouille.<br><br>
 - Pendant ce temps, dans un bol tu casses les oeufs et tu sépares le blanc des jaunes. Dans la Carbonara, tu ne mets que le jaune. Le blanc, tu le mets au frigo et tu feras des meringues avec. Dans les jaunes tu mets un peu de sel, un peu de poivre. Puis tu mets ton parmesan râpé. Fraîchement. Tu ne penses surtout pas à feinter en mettant un sachet industriel de parmesan déjà râpé, fais gaffe, je suis derrière toi prête à te planter une fourchette dans la clavicule.
 Si tu as un batteur électrique, c’est bien parce que ça va vite et les oeufs seront bien crémeux. Sinon avec ta petite main, tu vas battre longtemps, continuellement, et énergiquement. Je te regarde, n’oublie pas. Une fois que tes oeufs+parmesan sont bien crémeux, ça devrait même faire une petite mousse, tu peux arrêter.<br><br>
@@ -55,5 +49,3 @@ C’est délicieux, tout le monde aime, c’est un cadeau que l’Italie et Rome
 </section>
 
 </ul>
-
-</div>

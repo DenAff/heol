@@ -6,10 +6,6 @@ permalink: /:title
 categories: plats
 ---
 
-{::options parse_block_html="true" /}
-
-<div id="main" class='content'>
-
 # {{ page.title }}
 
 ##### Ingrédients pour 4 personnes
@@ -35,5 +31,3 @@ categories: plats
 </section>
 
 </ul>
-
-</div>

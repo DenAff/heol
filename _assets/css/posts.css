@@ -12,19 +12,40 @@ ul {list-style-type: none}
         margin-left: 0em
 }
 
+/* Mise en forme des puces pour les ingrédients */
+
 li {
     list-style: inside;
     list-style-type: circle;
+    line-height: 1.2;
     font-size: 15px;
 }
+
+/* Mise en forme des puces pour la préparation */
 
 #prepa li 
 {
     list-style: outside;
     list-style-type: decimal;
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 400;
 }
+
+/* Mise en forme des titres h5 */
 
 h5 {
     color: grey;
+}
+
+/* Mise en forme du bloc text */
+
+.standard-box {
+    max-width: 50%;
+  }
+
+@media (max-width: 1500px) {
+
+.standard-box {
+    max-width: 100%;
 }

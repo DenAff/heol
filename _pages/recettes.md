@@ -4,7 +4,7 @@ layout: default
 permalink: recettes.html
 ---
 
-<div id="main" class='content'>
+<div id="main" class='content posts'>
 
             <div class='content-text'>
 
