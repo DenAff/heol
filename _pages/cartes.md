@@ -12,7 +12,6 @@ permalink: cartes.html
 
             <div class="conteneur">
 
-            <figure class="video_container">
               <iframe
               frameborder="0"
                 allowfullscreen
@@ -26,7 +25,6 @@ permalink: cartes.html
                 Control=true&measureControl=false&editinosm
                 Control=false">
               </iframe>
-            </figure>
             
             </div>
 
