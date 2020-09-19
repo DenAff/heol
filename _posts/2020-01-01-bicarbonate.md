@@ -1,6 +1,6 @@
 ---
 title: Bicarbonate
-layout: default
+layout: posts
 custom_css: posts
 permalink: /:title
 categories: astuces

@@ -2,7 +2,7 @@
 title: Carbonara romaine
 layout: posts
 custom_css: posts
-permalink: /:title
+permalink: /recettes/:title
 categories: plats
 ---
 

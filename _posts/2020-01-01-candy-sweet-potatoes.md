@@ -1,6 +1,6 @@
 ---
 title: Candy sweep potatoes
-layout: default
+layout: posts
 custom_css: posts
 permalink: /:title
 categories: plats
