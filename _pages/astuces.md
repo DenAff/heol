@@ -23,7 +23,7 @@ permalink: astuces.html
                 {% endif %}
                 {% assign last_cat = category %}
               {% endfor %}
-              <li><a href="{{ posts.slug }}" class="cc-active">{{ posts.title }}</a></li>
+              <li><a href="/astuces/{{ posts.slug }}" class="cc-active">{{ posts.title }}</a></li>
               {% endif %}
               {% endfor %}
               </ul>

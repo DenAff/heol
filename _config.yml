@@ -1,5 +1,17 @@
 # Handling Reading
 include             : ["_pages", "_assets"]
 
-# Outputting
-permalink: none   # /:categories/:title.html
+# Liste des catégories
+collections:
+  category:
+    output: true # générer la page HTML
+    permalink: /:collection/:name/index.html
+    # exemple -> /category/informatique/index.html
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+      # layout utilisé -> _layouts/posts.html

@@ -2,8 +2,9 @@
 title: Bicarbonate
 layout: posts
 custom_css: posts
-permalink: /recettes/:title
+permalink: /astuces/:title
 categories: astuces
+page.categorie: astuces
 ---
 
 # {{ page.title }}

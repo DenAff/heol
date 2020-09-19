@@ -4,6 +4,7 @@ layout: posts
 custom_css: posts
 permalink: /recettes/:title
 categories: plats
+page.categorie: recettes
 ---
 
 # {{ page.title }}
