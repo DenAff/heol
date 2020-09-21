@@ -14,4 +14,4 @@ defaults:
       type: category
     values:
       layout: "category"
-      # layout utilisé -> _layouts/posts.html
+      # layout utilisé -> _layouts/category.html
