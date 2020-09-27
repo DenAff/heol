@@ -4,7 +4,6 @@ layout: posts
 custom_css: posts
 permalink: /astuces/:title
 categories: astuces
-page.categorie: astuces
 ---
 
 # {{ page.title }}
