@@ -18,7 +18,7 @@ permalink: astuces.html
 {% assign no_show_cat = "entrée plats" %} <!--permet d'assigner la catégorie "astuces" à la liste "no_show_cat"-->
   {% for category in sorted_cats %}
     {% unless no_show_cat contains category[0] %} <!--la liste "no_show_cat" est cachée-->
-      <!-- <li-category><strong>{{ category[0] | capitalize }}</strong></li-category> -->
+      <li-category><strong>{{ category[0] | capitalize }}</strong></li-category>
     {% endunless %} <!--fin de la fonction unless-->
 
   {% assign pages_list = category[1] | sort:"title" %} <!-- permet entre autres de trier les liens par ordre alphabétique -->
