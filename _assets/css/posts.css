@@ -55,7 +55,6 @@ h5 {
 
 .image-posts
 {
-background-image: url('{{ site.baseurl }}/_assets/images/home/pattern.jpg');
 width: 100%;
 max-width: 500px;
 height: auto;
