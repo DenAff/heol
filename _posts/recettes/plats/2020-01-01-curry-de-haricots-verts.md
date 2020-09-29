@@ -11,7 +11,7 @@ categories: plats
 ##### Ingrédients
 
 - 500g de haricots verts
-- 2cs 	de noix de coco râpée
+- 2cs de noix de coco râpée
 - 1 botte d’oignons nouveaux
 - 2 gousses d’ail
 - 20g de gingembre

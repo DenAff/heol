@@ -12,9 +12,9 @@ categories: entrée
 
 - 1/2 chou rouge
 - 4 à 5 pommes de terre
-- 200 g de lards fumés
+- 200g de lards fumés
 - 1 oignon
-- 1,5 l de bouillon de volaille
+- 1,5l de bouillon de volaille
 - sel
 - poivre
 - quelques grissinis (facultatif)
