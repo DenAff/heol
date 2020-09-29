@@ -13,19 +13,21 @@ permalink: astuces.html
 -->
 
               <ul class="docs-nav">
-              {% assign posts_list = site.posts | sort:"title" %}
-              {% assign last_cat = "" %}
-              {% for posts in posts_list %}
-                {% if posts.title != "" %}
-                  {% for category in posts.categories limit:1 %}
-                    {% if category != last_cat %}
-              <li-category><strong>{{ category | replace: "-", " " | capitalize  }}</strong></li-category>
-                {% endif %}
-                {% assign last_cat = category %}
-              {% endfor %}
-              <li><a href="/astuces/{{ posts.slug }}" class="cc-active">{{ posts.title }}</a></li>
-              {% endif %}
-              {% endfor %}
+{% assign no_show_cat = "astuces" | split: "," %} <!--assign astuces to no_show_cat-->
+{% for category in site.categories %}
+  {% unless no_show_cat contains category[0] %} <!--la liste no_show_cat est cachée-->
+  <h3 id="{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }}</h3>
+  {% endunless %} <!--fin de la fonction unless-->
+<ul>
+{% assign pages_list = category[1] %}
+{% for post in pages_list %}
+{% unless post.categories contains 'astuces' %} <!-- Retire les liens des post astuces -->
+  <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time></a></li>
+{% endunless %} <!--fin de la fonction unless-->
+{% endfor %}
+</ul>
+{% endfor %}
+
               </ul>
 
             </div>
