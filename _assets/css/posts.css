@@ -56,7 +56,7 @@ h5 {
 .image-posts
 {
 background-image: url('{{ site.baseurl }}/_assets/images/home/pattern.jpg');
-background-size: contain; /* Resize the background image to cover the entire container */
-background-color: white;
-width: 50%;
+width: 100%;
+max-width: 500px;
+height: auto;
 }
