@@ -49,3 +49,14 @@ h5 {
 .standard-box {
     max-width: 100%;
 }
+}
+
+/* Mise en forme des images à l'intérieur des posts */
+
+.image-posts
+{
+background-image: url('{{ site.baseurl }}/_assets/images/home/pattern.jpg');
+background-size: contain; /* Resize the background image to cover the entire container */
+background-color: white;
+width: 50%;
+}

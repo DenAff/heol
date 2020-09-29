@@ -8,6 +8,8 @@ categories: desserts
 
 # {{ page.title }}
 
+![gateau-renverse-chocolat-poire]({{ site.baseurl }}/_assets\images\posts\recettes\desserts\gateau-renverse-chocolat-poire.jpg){:class="image-posts"}
+
 ##### Ingrédients pour 12 personnes
 
 - 1kg de poires williams (ou autre variété) 
@@ -35,3 +37,4 @@ categories: desserts
 </section>
 
 </ul>
+
