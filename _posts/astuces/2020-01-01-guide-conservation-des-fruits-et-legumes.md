@@ -8,4 +8,4 @@ categories: astuces
 
 <br>
 
-<iframe frameborder="0" auto src="{{ site.baseurl }}/_assets\images\posts\astuces\guide-conservation.pdf" width="100%" height="800em"></iframe>
+<iframe frameborder="0" embedded=true src="{{ site.baseurl }}/_assets\images\posts\astuces\guide-conservation.pdf" width="100%" height="800em"></iframe>
