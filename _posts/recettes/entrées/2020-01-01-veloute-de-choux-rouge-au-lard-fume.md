@@ -3,7 +3,7 @@ title: Velouté de choux rouge au lard fumé
 layout: posts
 custom_css: posts
 permalink: /recettes/:title
-categories: entrée
+categories: entrées
 ---
 
 # {{ page.title }}
