@@ -8,4 +8,4 @@ categories: astuces
 
 <br>
 
-<embed src="{{ site.baseurl }}/_assets\images\posts\astuces\guide-conservation.pdf" width="100%" height="800em" type="application/pdf" />
+[Intro.pdf]({{ site.baseurl }}/_assets\images\posts\astuces\guide-conservation.pdf)
