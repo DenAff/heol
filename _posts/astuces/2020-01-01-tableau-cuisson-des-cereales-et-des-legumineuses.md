@@ -6,6 +6,10 @@ permalink: /astuces/:title
 categories: astuces
 ---
 
+ <div class="conteneur">
+
 <br>
 
-<iframe src="https://docs.google.com/file/d/1ApZLegq3nCG7uDNtswsKJ4aNvMA7UMkO/preview" width="800" height="600"></iframe>
+<iframe frameborder="0" src="https://docs.google.com/file/d/1ApZLegq3nCG7uDNtswsKJ4aNvMA7UMkO/preview"></iframe>
+
+</div>
