@@ -8,4 +8,4 @@ categories: astuces
 
 <br>
 
-<iframe frameborder="0" src="{{ site.baseurl }}/_assets\images\posts\astuces\tableau-cuisson-des-cereales-et-des-legumineuses.pdf" width="100%" height="800em"></iframe>
+<iframe src="https://docs.google.com/file/d/1ApZLegq3nCG7uDNtswsKJ4aNvMA7UMkO/preview" width="800" height="600"></iframe>
