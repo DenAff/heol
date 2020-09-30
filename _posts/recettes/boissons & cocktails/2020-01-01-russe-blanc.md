@@ -3,7 +3,7 @@ title: Russe blanc
 layout: posts
 custom_css: posts
 permalink: /recettes/:title
-categories: cocktails
+categories: [boissons & cocktails]
 ---
 
 # {{ page.title }}

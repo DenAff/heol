@@ -1,5 +1,5 @@
 ---
-title: Céréales de Sarrasin
+title: Céréales de sarrasin
 layout: posts
 custom_css: posts
 permalink: /recettes/:title
