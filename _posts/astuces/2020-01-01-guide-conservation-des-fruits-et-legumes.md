@@ -6,6 +6,10 @@ permalink: /astuces/:title
 categories: astuces
 ---
 
+<div class="conteneur">
+
 <br>
 
-[Intro.pdf]({{ site.baseurl }}/_assets\images\posts\astuces\guide-conservation.pdf)
+<iframe frameborder="0" src="https://docs.google.com/file/d/1ApZLegq3nCG7uDNtswsKJ4aNvMA7UMkO/preview"></iframe>
+
+</div>
