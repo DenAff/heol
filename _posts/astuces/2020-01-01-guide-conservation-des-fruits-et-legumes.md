@@ -7,8 +7,5 @@ categories: astuces
 ---
 
 <br>
-<div class="conteneur">
 
-<iframe frameborder="0" src="{{ site.baseurl }}/_assets\images\posts\astuces\guide-conservation.pdf" width="100%" height="800em"></iframe>
-
-</div>
+<iframe frameborder="0" auto src="{{ site.baseurl }}/_assets\images\posts\astuces\guide-conservation.pdf" width="100%" height="800em"></iframe>
