@@ -19,6 +19,11 @@ li {
     list-style-type: circle;
     line-height: 1.2;
     font-size: 15px;
+    line-height: 1.5em;
+}
+
+li:not(:last-child) {
+    margin-bottom: 0.1em;
 }
 
 /* Mise en forme des puces pour la préparation */
