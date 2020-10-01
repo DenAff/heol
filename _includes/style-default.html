@@ -170,27 +170,26 @@
         }
 
         ul {list-style: none}
-          li::before {content: "⨉";
-          color: grey;
-          display: inline-block;
-          width: 1em;
-          height: 1em;
-          margin-left: -2em;
-          padding-left: 1em;
-          line-height: 50%;
-        }
-      
-        ul {
-          line-height: 150%;
-          font-size: 13pt;
-        }
+          li::before {
+                      content: "⨉";
+                      color: grey;
+                      display: inline-block;
+                      width: 1em;
+                      height: 1em;
+                      margin-left: -2em;
+                      padding-left: 1em;
+                      line-height: 1em;
+          }
+          li:not(:last-child) {
+                                margin-bottom: 15px;
+          }
 
         ul li-category {
           color: white;
           background: black;
           margin: -30px;
           padding: 5px 10px;
-          line-height: 3em;
+          line-height: 5em;
           font-size: 14pt;
         }
 
