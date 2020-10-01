@@ -15,7 +15,7 @@ ul {list-style-type: none}
 /* Mise en forme des puces pour les ingrédients */
 
 li {
-    list-style: inside;
+    list-style: outside;
     list-style-type: circle;
     line-height: 1.2;
     font-size: 15px;
