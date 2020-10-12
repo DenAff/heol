@@ -8,7 +8,7 @@ categories: [cuissons & préparations]
 
 # {{ page.title }}
 
-##### Ingrédients pour 1 tarte
+##### Ingrédients
 
 - les côtes dans l’échine sont plus tendres que celles dans le filet
 - pour réussir une bonne cuisson, choisissez de préférence des côtes un peu épaisses (environ 2 cm d’épaisseur)
