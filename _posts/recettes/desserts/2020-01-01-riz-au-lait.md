@@ -13,7 +13,7 @@ categories: desserts
 - 1L de lait entier
 - 1 gousse de vanille
 - 150g de riz à grains ronds ou risotto
-- 120g de sucre
+- 55g de sucre
 
 ##### La préparation
 
