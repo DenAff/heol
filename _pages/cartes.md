@@ -10,13 +10,11 @@ categories: Alors ça marche ?
 <!--
   Titre de la carte de Paris
 -->
-
-            <div class='content-text'>
+          
               <ul class="docs-nav">
-               <li-category>Paris</li-category>
+               <li-category>Sortir à Paris</li-category>
               </ul>
-            </div>
-
+       
 <!--
   Fonction Plein écran pour la carte de Paris
 -->
@@ -52,11 +50,9 @@ categories: Alors ça marche ?
   Titre de la carte de Rome
 -->
 
-            <div class='content-text'>
               <ul class="docs-nav">
-               <li-category>Rome</li-category>
+               <li-category>Voyager à Rome</li-category>
               </ul>
-            </div>
 
 <!--
   Fonction Plein écran pour la carte de Rome
