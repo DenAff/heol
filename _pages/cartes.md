@@ -33,4 +33,31 @@ permalink: cartes.html
              <a href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
             </p>
 
+<!--
+  La carte de nos lieux de sorties à Rome    http://umap.openstreetmap.fr/fr/map/voyager-a-rome_671161#14/41.8964/12.4896
+-->
+            <p>
+            <div class="conteneur">
+
+              <iframe
+              frameborder="0"
+                allowfullscreen
+                src="//umap.openstreetmap.fr/fr/map/voyager-a-rome_671161?scale
+                Control=true&miniMap=false&scrollWheelZoom=true&zoom
+                Control=false&allowEdit=false&more
+                Control=false&search
+                Control=true&tilelayersControl=false&embedControl=true&datalayers
+                Control=true&onLoadPanel=none&captionBar=false&fullscreen
+                Control=true&locate
+                Control=true&measureControl=false&editinosm
+                Control=false">
+              </iframe>
+            
+            </div>
+            </p>
+
+            <p style="text-align:center">
+             <a href="//umap.openstreetmap.fr/fr/map/voyager-a-rome_671161" target="_blank">Voir en plein écran</a>
+            </p>
+
 </div>    
