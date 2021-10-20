@@ -2,9 +2,28 @@
 title: Cartes
 layout: default
 permalink: cartes.html
+categories: Alors ça marche ?
 ---
 
 <div id="main" class='content'>
+
+<!--
+  Titre de la carte de Paris
+-->
+
+            <div class='content-text'>
+              <ul class="docs-nav">
+               <li-category>Paris</li-category>
+              </ul>
+            </div>
+
+<!--
+  Fonction Plein écran pour la carte de Paris
+-->
+
+            <p style="text-align:left">
+             <a href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
+            </p>
 
 <!--
   La carte de nos lieux de sorties à Paris
@@ -29,8 +48,22 @@ permalink: cartes.html
             </div>
             </p>
 
-            <p style="text-align:center">
-             <a href="//umap.openstreetmap.fr/fr/map/sortir-a-paris_482924" target="_blank">Voir en plein écran</a>
+<!--
+  Titre de la carte de Rome
+-->
+
+            <div class='content-text'>
+              <ul class="docs-nav">
+               <li-category>Rome</li-category>
+              </ul>
+            </div>
+
+<!--
+  Fonction Plein écran pour la carte de Rome
+-->
+
+            <p style="text-align:left">
+             <a href="//umap.openstreetmap.fr/fr/map/voyager-a-rome_671161" target="_blank">Voir en plein écran</a>
             </p>
 
 <!--
@@ -54,10 +87,6 @@ permalink: cartes.html
               </iframe>
             
             </div>
-            </p>
-
-            <p style="text-align:center">
-             <a href="//umap.openstreetmap.fr/fr/map/voyager-a-rome_671161" target="_blank">Voir en plein écran</a>
             </p>
 
 </div>    
