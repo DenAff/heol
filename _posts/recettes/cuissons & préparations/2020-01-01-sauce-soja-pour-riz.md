@@ -13,3 +13,9 @@ categories: [cuissons & préparations]
 - huile de sésame
 - sauce de soja
 - gousses d’aïl
+
+
+
+##### Conseils
+
+- Ajouter du citron pour une pointe d'acidité. Ainsi, le goût s'équilibre très bien avec le côté amer de l'endive.
