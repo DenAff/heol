@@ -51,7 +51,7 @@ categories: Alors ça marche ?
 -->
 
               <ul class="docs-nav">
-               <li-category>Voyager à Rome</li-category>
+               <li-category>Souvenirs de Rome</li-category>
               </ul>
 
 <!--
@@ -84,5 +84,13 @@ categories: Alors ça marche ?
             
             </div>
             </p>
+
+<!--
+  Titre de la carte du Canada
+-->
+
+              <ul class="docs-nav">
+               <li-category>Souvenirs du Canada</li-category>
+              </ul>
 
 </div>    
