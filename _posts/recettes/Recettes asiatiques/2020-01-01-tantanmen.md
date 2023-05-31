@@ -10,7 +10,6 @@ categories: [Recettes asiatiques]
 
 ##### Ingrédients pour 2/3 bols
 
-Les ingrédients (pour 2/3 bols) : 
 Le bouillon :
 - 50cl de bouillon de volaille
 - 25cl de lait de soja (NON SUCRÉ)
@@ -60,24 +59,13 @@ La viande :
 - 1 càc de doubanjiang (ou gochujang)
 - Poivre
 
-
-- 500g de blancs de poulet
-- 3 petits pains suédois complet
-- 50g de graines de courge
-- 50g de farine (blé, sarrasin, pois chiche, châtaigne)
-- 2 œufs
-- sel
-
 ##### La préparation
 
 <ul id="prepa">
 
 <section id="categories" markdown="1">
 
-- Préparez les aiguillettes de poulet. Mixez les petits pains suédois et les graines de courge durant 3 minutes, jusqu'à ce qu'il se forme une poudre couleur pistache. Versez cette chapelure dans une assiette creuse.<br><br>
-- Prenez une assiette dans laquelle vous aurez battu les œufs et une autre dans laquelle vous disposerez la farine.<br><br>
-- Détaillez les blancs de poulet en aiguillettes et salez-les. Roulez chaque morceau dans la farine, dans l'oeuf, puis dans la chapelure.<br><br>
-- Réservez au frais.
+[Plus d'infos sur Youtube](https://www.youtube.com/watch?v=jrJ_ATHYSAM&list=PLy-febpd4h2wh38gNVMgva_0HMbsF9Qy3&index=2&t=174s&ab_channel=Whoogy%CC%81s)
 
 </section>
 
