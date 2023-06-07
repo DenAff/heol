@@ -8,7 +8,7 @@ categories: desserts
 
 # {{ page.title }}
 
-[La recette original](http://www.cuisine-campagne.com/index.php?post/2008/09/16/346-pancakes-a-la-ricotta-fruits-d-automne-rotis-et-miel-d-oranger-de-sicile)
+[La recette original](https://www.femmeactuelle.fr/cuisine/cuisine-des-chefs/la-surprenante-mousse-au-chocolat-de-laurent-mariotte-sans-oeuf-ni-beurre-2115326)
 
 ##### Ingrédients pour 4 personnes
 
