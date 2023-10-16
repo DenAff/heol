@@ -1,5 +1,5 @@
 ---
-title: Caramel au beurre salé inratable
+title: Crème Chocolat au Tofu Soyeux
 layout: posts
 custom_css: posts
 permalink: /recettes/:title
