@@ -8,12 +8,13 @@ categories: desserts
 
 # {{ page.title }}
 
-##### Ingrédients pour 6 à 8 personnes
+[Source](https://www.latelierderoxane.com/blog/recette-de-caramel-beurre-sale/)
 
-- 1L de lait entier
-- 1 gousse de vanille
-- 150g de riz à grains ronds ou risotto
-- 55g de sucre
+##### Ingrédients pour un pot
+
+- 160g de sucre
+- 80g de beurre demi-sel
+- 200 g de crème liquide entière 35% MG
 
 ##### La préparation
 
@@ -21,12 +22,24 @@ categories: desserts
 
 <section id="categories" markdown="1">
 
-- Verser le lait dans une casserole, ajouter la gousse de vanille fendue dans la longueur et porter à ébullition.<br><br>
-- Dès que cela bout, verser le riz en pluie (sans le rincer). Mélanger et attendre la reprise de l'ébullition, alors mettre à feu plus doux pour que cela bouille doucement.<br>
-Ne pas couvrir complètement la casserole.<br><br>
-- Laisser cuire doucement 40 minutes, remuer toutes les 10 minutes.<br><br>
-- À la fin de la cuisson ajouter le sucre et transvaser dans une jatte, en y laissant la gousse de vanille.<br><br>
-- Couvrir d'un film au contact de la surface et laisser refroidir d'abord à température ambiante puis au frigidaire.
+- Commence par verser le sucre dans une casserole.<br><br>
+- Sur feu doux, verse petit a petit le sucre pour le faire caraméliser sans jamais remuer car il risque de cristalliser.<br><br>
+- Toujours sur feu doux, ajoute le beurre demi-sel froid coupé en morceaux et mélange énergiquement à l’aide d’une cuillère en bois.<br><br>
+- Une fois le mélange bien homogène, ajoute la crème liquide entière chaude et laisse réduire 5 minutes sur feu doux, sans jamais cesser de remuer !<br><br>
+- Laisse le caramel tiédir pendant 20 minutes.<br><br>
+- Verse ensuite le caramel beurre salé dans un pot de conservation (tu peux réutiliser un pot de confiture vide).<br><br>
+- Laisse le caramel complètement refroidir avant de refermer le pot pour le placer au frais.<br><br>
+
+##### Conseils et astuces
+
+- Pour éviter les éclaboussures lorsque tu rajoutes la crème, tu peux la faire chauffer légèrement avant de la verser sur le caramel.<br><br>
+- Ensuite, si tu n’as pas de beurre demi-sel, ne t’inquiète pas. Tu peux utiliser du beurre doux et rajouter une pincée de sel fin, ça marchera de la même manière !<br><br>
+- Pour éviter de faire cramer ton caramel, règle la puissance du feu sur doux à moyen. N’oublie pas : quand le sucre caramélise, tu ne dois jamais remuer. Par contre, lorsque tu as ajouté le beurre et la crème, il ne faut pas t’arrêter de remuer !<br><br>
+- Si tu n’as pas trop l’habitude de faire du caramel maison, tu risques d’avoir du mal à le faire sans galères.<br>
+Mais ne t’en fais pas, voilà mes astuces pour le réussir à coup sûr !<br>
+Déjà, choisis un sucre blanc (le traditionnel sucre en poudre fin). Laisse de côté les sucres bruts (comme l’agave) qui ne sont pas assez raffinés et qui risquent de faire cristalliser ton caramel à cause des petites impuretés qu’ils contiennent.<br>
+Ensuite, pour ne pas cramer ton caramel beurre salé et avoir un goût amer désagréable, ne monte pas le feu trop fort et n’attends pas qu’il soit complètement brun pour le retirer du feu !<br>
+Le caramel va continuer de cuire même après que tu l’as enlevé.
 
 </section>
 

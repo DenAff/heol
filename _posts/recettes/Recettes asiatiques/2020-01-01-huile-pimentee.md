@@ -8,6 +8,8 @@ categories: [Recettes asiatiques]
 
 # {{ page.title }}
 
+[Source](https://www.youtube.com/watch?v=fLRBi0dsUl8&list=PLy-febpd4h2wh38gNVMgva_0HMbsF9Qy3&index=6&t=196s)
+
 ##### Ingrédients
 
 - 40 cl d'huile de tournesol
@@ -31,7 +33,7 @@ categories: [Recettes asiatiques]
 
 <section id="categories" markdown="1">
 
-[Plus d'infos sur Youtube](https://www.youtube.com/watch?v=fLRBi0dsUl8&list=PLy-febpd4h2wh38gNVMgva_0HMbsF9Qy3&index=6&t=196s)
+
 
 </section>
 

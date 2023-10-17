@@ -8,12 +8,12 @@ categories: desserts
 
 # {{ page.title }}
 
-##### Ingrédients pour 6 à 8 personnes
+[Source](https://www.planetevegan.com/recettes/creme-chocolat-tofu-soyeux/)
 
-- 1L de lait entier
-- 1 gousse de vanille
-- 150g de riz à grains ronds ou risotto
-- 55g de sucre
+##### Ingrédients pour 6 personnes
+
+- 200g de chocolat pâtissier (52% de cacao)
+- 400g de tofu soyeux
 
 ##### La préparation
 
@@ -21,12 +21,17 @@ categories: desserts
 
 <section id="categories" markdown="1">
 
-- Verser le lait dans une casserole, ajouter la gousse de vanille fendue dans la longueur et porter à ébullition.<br><br>
-- Dès que cela bout, verser le riz en pluie (sans le rincer). Mélanger et attendre la reprise de l'ébullition, alors mettre à feu plus doux pour que cela bouille doucement.<br>
-Ne pas couvrir complètement la casserole.<br><br>
-- Laisser cuire doucement 40 minutes, remuer toutes les 10 minutes.<br><br>
-- À la fin de la cuisson ajouter le sucre et transvaser dans une jatte, en y laissant la gousse de vanille.<br><br>
-- Couvrir d'un film au contact de la surface et laisser refroidir d'abord à température ambiante puis au frigidaire.
+- Égouttez le tofu soyeux s’il baigne dans de l’eau.<br><br>
+- Faites fondre le chocolat au bain marie. Veillez à ne pas laisser bouillir l’eau. Si le feu est trop fort, retirez le récipient de la casserole et continuer à faire fondre hors du feu.<br><br>
+- Mixez le tofu soyeux au blender pendant que le chocolat fond (juste un peu pour le rendre homogène).<br><br>
+- Ajoutez le chocolat fondu tiède dans le blender et mixez pendant 1 minute.<br><br>
+- Versez dans votre saladier (ou dans des verrines/ramequins pour des portions individuelles) et laissez au réfrigérateur au moins 2 heures.<br><br>
+
+##### Conseils et astuces
+
+- Voici les proportions pour faire une crème chocolat noisettes vegan.<br><br>
+- Suivez la recette classique (200 g de chocolat) avec 60 g de purée de noisettes.<br><br>
+- Pour alléger la préparation et accentuer le goût, vous pouvez ajouter 80ml de lait de noisettes.
 
 </section>
 
