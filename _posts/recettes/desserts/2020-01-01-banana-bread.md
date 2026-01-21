@@ -33,8 +33,8 @@ categories: desserts
 
 <section id="categories" markdown="1">
 
-- **Faire fondre le beurre** à feu doux et laisser tiédir.</li><br><br>
-- **Ingrédients secs**: mélanger farine, levure, sel, cannelle et gingembre.</li><br><br>
+- **Faire fondre le beurre** à feu doux et laisser tiédir.<br><br>
+- **Ingrédients secs**: mélanger farine, levure, sel, cannelle et gingembre.<br><br>
 - **Ingrédients humides**:<br><br>
 
 <ul>
@@ -54,7 +54,6 @@ categories: desserts
 
 - **Cuisson**: 30-40 min à 165°C (chaleur tournante). Vérifier avec la lame d’un couteau.<br><br>
 - **Finition**: à la sortie du four, badigeonner de sirop d’érable et laisser tiédir avant de démouler.
-<ul>
 
 </section>
 
