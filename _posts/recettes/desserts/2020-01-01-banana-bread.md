@@ -48,7 +48,7 @@ categories: desserts
 
 <ul>
 - verser la pâte dans un moule beurré/fariné ou chemisé.<br><br>
-- Ajouter la 3ᵉ banane coupée en deux (badigeonnée de sirop d’érable).<br><br>
+- Ajouter la 3ᵉ ou 4ᵉ banane coupée en deux (badigeonnée de sirop d’érable).<br><br>
 - Parsemer du reste de noix.<br><br>
 </ul>
 
