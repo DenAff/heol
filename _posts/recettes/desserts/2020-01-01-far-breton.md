@@ -34,7 +34,7 @@ Source : On va déguster LA FRANCE
 - Préchauffer le four à 250 °C.
 - Dans un saladier, mélanger tous les ingrédients dans l'ordre suivant :
 
-<ul style= "list-style-type:disc">
+<ul>
 
 - la farine<br>
 - le sucre<br>
