@@ -31,7 +31,7 @@ categories: desserts
 
 <ul id="prepa" style= "list-style-type:disc">
 
-<section id="categories" markdown="1">
+<section id="categories" markdown="1" style= "list-style-type:disc">
 
 - **Faire fondre le beurre** à feu doux et laisser tiédir.<br><br>
 - **Ingrédients secs**: mélanger farine, levure, sel, cannelle et gingembre.<br><br>
