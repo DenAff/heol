@@ -21,6 +21,10 @@ Source : On va déguster LA FRANCE
 - 25g de beurre demi-sel
 Un peu de farine pour le moule
 
+##### Matériels
+
+- Un plat entre 25 et 26 cm de diamètre et 4,5 cm de hauteur
+
 ##### La préparation
 
 <ul style= "list-style-type:disc">
