@@ -35,12 +35,14 @@ Source : On va déguster LA FRANCE
 - Dans un saladier, mélanger tous les ingrédients dans l'ordre suivant :<br><br>
 
 <ul>
+
 - la farine<br><br>
 - le sucre<br><br>
 - le sel<br><br>
 - les œufs<br><br>
 - le lait<br><br>
 - la crème<br><br>
+
 </ul>
 
 - Beurrer et fariner un moule assez haut pour recevoir la quantité d'appareil ; verser la pâte.<br><br>
