@@ -1,5 +1,5 @@
 ---
-title: Far Breton ***
+title: Far Breton
 layout: posts
 custom_css: posts
 permalink: /recettes/:title

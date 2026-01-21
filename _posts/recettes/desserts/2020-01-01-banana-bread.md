@@ -1,5 +1,5 @@
 ---
-title: Banana Bread 🍌 ***
+title: Banana Bread 🍌
 layout: posts
 custom_css: posts
 permalink: /recettes/:title
