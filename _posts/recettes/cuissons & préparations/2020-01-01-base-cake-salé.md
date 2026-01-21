@@ -8,6 +8,8 @@ categories: [cuissons & préparations]
 
 # {{ page.title }}
 
+[Source](https://lacuisinedebernard.com/cake-sale-a-lail-des-ours/)
+
 ##### Ingrédients pour un moule à cake de 28cm
 
 - 300g de farine (adapté la farine selon l'effet voulu, T65 se rapproche du pain)
