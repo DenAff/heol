@@ -19,7 +19,7 @@ Source : On va déguster LA FRANCE
 - 250g de crème liquide (20cL/25cL avec 30% de matière grasse)
 - 1 c. à café de sel fin de Guérande
 - 25g de beurre demi-sel
-Un peu de farine pour le moule
+- Un peu de farine pour le moule
 
 ##### Matériels
 
@@ -32,7 +32,8 @@ Un peu de farine pour le moule
 <section id="categories" markdown="1">
 
 - Préchauffer le four à 250 °C.
-- Dans un saladier, mélanger tous les ingrédients dans l'ordre suivant: la farine, le sucre, le sel, les œufs, le lait, la crème.
+- Dans un saladier, mélanger tous les ingrédients dans l'ordre suivant :<br><br>
+la farine, le sucre, le sel, les œufs, le lait, la crème.<br><br>
 - Beurrer et fariner un moule assez haut pour recevoir la quantité d'appareil ; verser la pâte.
 - Faire cuire dans le four chaud pendant 20 à 30 minutes et laisser le far 30 minutes supplémentaires dans le four éteint.
 - Le laisser refroidir avant de le déguster.
