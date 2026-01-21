@@ -33,12 +33,17 @@ Source : On va déguster LA FRANCE
 
 - Préchauffer le four à 250 °C.
 - Dans un saladier, mélanger tous les ingrédients dans l'ordre suivant :<br><br>
-la farine, le sucre, le sel, les œufs, le lait, la crème.<br><br>
+    - la farine<br><br>
+    - le sucre<br><br>
+    - le sel<br><br>
+    - les œufs<br><br>
+    - le lait<br><br>
+    - la crème<br><br>
 - Beurrer et fariner un moule assez haut pour recevoir la quantité d'appareil ; verser la pâte.
 - Faire cuire dans le four chaud pendant 20 à 30 minutes et laisser le far 30 minutes supplémentaires dans le four éteint.
 - Le laisser refroidir avant de le déguster.
 
-- Il est possible d'ajouter à l'appareil :
+- Il est possible d'ajouter à l'appareil :<br><br>
 
 <ul>
 - 1 c. à soupe de rhum<br><br>
