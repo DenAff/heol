@@ -41,9 +41,9 @@ la farine, le sucre, le sel, les œufs, le lait, la crème.<br><br>
 - Il est possible d'ajouter à l'appareil :
 
 <ul>
-- 1 c. à soupe de rhum
-- 1 gousse de vanille grattée.
-- 35 pruneaux moelleux (avec les noyaux) au fond du moule avant de verser l'appareil.
+- 1 c. à soupe de rhum<br><br>
+- 1 gousse de vanille grattée.<br><br>
+- 35 pruneaux moelleux (avec les noyaux) au fond du moule avant de verser l'appareil.<br><br>
 </ul>
 
 </section>
