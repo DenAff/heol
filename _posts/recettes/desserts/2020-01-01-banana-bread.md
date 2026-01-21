@@ -36,13 +36,13 @@ categories: desserts
 - **Faire fondre le beurre** à feu doux et laisser tiédir.<br><br>
 - **Ingrédients secs**: mélanger farine, levure, sel, cannelle et gingembre.<br><br>
 - **Ingrédients humides**:<br><br>
-    - Écraser 2 ou 3 bananes mûres.<br><br>
-    - Ajouter vanille, zeste de citron, beurre fondu, jaunes d’œufs, sucre, ¾ des noix et le rhum.<br><br>
-    - Incorporer le mélange sec.<br><br>
+    * Écraser 2 ou 3 bananes mûres.<br><br>
+    * Ajouter vanille, zeste de citron, beurre fondu, jaunes d’œufs, sucre, ¾ des noix et le rhum.<br><br>
+    * Incorporer le mélange sec.<br><br>
 - **Blancs en neige**: monter les blancs avec une pincée de sel, les incorporer délicatement à la pâte.<br><br>
 - **Mise en moule**: verser la pâte dans un moule beurré/fariné ou chemisé.<br><br>
-   - Ajouter la 3ᵉ banane coupée en deux (badigeonnée de sirop d’érable).<br><br>
-   - Parsemer du reste de noix.<br><br>
+    * Ajouter la 3ᵉ banane coupée en deux (badigeonnée de sirop d’érable).<br><br>
+    * Parsemer du reste de noix.<br><br>
 - **Cuisson**: 30-40 min à 165°C (chaleur tournante). Vérifier avec la lame d’un couteau.<br><br>
 - **Finition**: à la sortie du four, badigeonner de sirop d’érable et laisser tiédir avant de démouler.
 
