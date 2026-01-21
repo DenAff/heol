@@ -36,12 +36,12 @@ Source : On va déguster LA FRANCE
 
 <ul style= "list-style-type:disc">
 
-- la farine
+- la farine<br>
 - le sucre
 - le sel
 - les œufs
 - le lait
-- la crème
+        - la crème
 
 </ul>
 
