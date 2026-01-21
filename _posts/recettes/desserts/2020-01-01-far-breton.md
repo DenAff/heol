@@ -33,27 +33,25 @@ Source : On va déguster LA FRANCE
 
 - Préchauffer le four à 250 °C.<br><br>
 - Dans un saladier, mélanger tous les ingrédients dans l'ordre suivant :<br><br>
-    
-    <ul>
-    - la farine<br><br>
-    - le sucre<br><br>
-    - le sel<br><br>
-    - les œufs<br><br>
-    - le lait<br><br>
-    - la crème<br><br>
-    </ul>
+
+<ul>
+- la farine<br><br>
+- le sucre<br><br>
+- le sel<br><br>
+- les œufs<br><br>
+- le lait<br><br>
+- la crème<br><br>
+</ul>
 
 - Beurrer et fariner un moule assez haut pour recevoir la quantité d'appareil ; verser la pâte.<br><br>
 - Faire cuire dans le four chaud pendant 20 à 30 minutes et laisser le far 30 minutes supplémentaires dans le four éteint.<br><br>
 - Le laisser refroidir avant de le déguster.<br><br>
 
-- Il est possible d'ajouter à l'appareil :<br><br>
+##### Twist
 
-<ul>
 - 1 c. à soupe de rhum<br><br>
 - 1 gousse de vanille grattée.<br><br>
-- 35 pruneaux moelleux (avec les noyaux) au fond du moule avant de verser l'appareil.<br><br>
-</ul>
+- 35 pruneaux moelleux (avec les noyaux) au fond du moule avant de verser l'appareil.
 
 </section>
 
