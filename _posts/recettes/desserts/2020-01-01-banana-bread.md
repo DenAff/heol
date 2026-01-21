@@ -29,7 +29,7 @@ categories: desserts
 
 ##### La préparation
 
-<ul id="prepa">
+<ul id="prepa" style= "list-style-type:disc">
 
 <section id="categories" markdown="1">
 
