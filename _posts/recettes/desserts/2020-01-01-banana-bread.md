@@ -36,15 +36,9 @@ categories: desserts
 - **Faire fondre le beurre** à feu doux et laisser tiédir.
 - **Ingrédients secs**: mélanger farine, levure, sel, cannelle et gingembre.
 - **Ingrédients humides**:
-
-<ul>
-
 - Écraser 2 ou 3 bananes mûres.<br>
 - Ajouter vanille, zeste de citron, beurre fondu, jaunes d’œufs, sucre, ¾ des noix et le rhum.<br>
 - Incorporer le mélange sec.
-
-</ul>
-
 - **Blancs en neige**: monter les blancs avec une pincée de sel, les incorporer délicatement à la pâte.
 - **Mise en moule**:
 
