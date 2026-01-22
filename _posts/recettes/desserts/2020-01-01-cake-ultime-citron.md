@@ -3,7 +3,7 @@ title: Cake ultime au citron
 layout: posts
 custom_css: posts
 permalink: /recettes/:title
-categories: [cuissons & préparations]
+categories: desserts
 ---
 
 # {{ page.title }}
@@ -12,7 +12,7 @@ categories: [cuissons & préparations]
 
 ##### Ingrédients
 
-#### Le Cake
+###### Le Cake
 
 - 200g sucre il n’y a qu’avec cette quantité que le cake fonctionne et cela équilibre le citron
 - 120g beurre fondu
@@ -21,7 +21,7 @@ categories: [cuissons & préparations]
 - 150g farine
 - 80g jus de citron
 
-#### Le Glaçage
+###### Le Glaçage
 
 - 25g jus de citron
 - 130g sucre glace
@@ -37,9 +37,7 @@ Si vous utilisez un moule plus grand, il faudra faire plus de pâte, la seule ch
 <section id="categories" markdown="1">
  
 - Préchauffez votre four à 170°C.
-
 - Faites fondre le beurre au four à micro-ondes ou au bain-marie (plus que sur la photo). Versez le sucre dans un bol avec le beurre et le zeste d’un citron.
-
 - Mélangez sommairement le beurre fondu avec le sucre.
 
 - Ajoutez les 165g d’œuf, en gros 3 œufs moyens.
