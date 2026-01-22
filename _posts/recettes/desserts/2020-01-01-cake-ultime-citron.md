@@ -20,6 +20,7 @@ categories: desserts
 - 165g oeuf (environ 3 œufs moyens)
 - 150g farine
 - 80g jus de citron
+- 1 demi cuillerée à café de levure chimique
 
 ###### Le Glaçage
 
@@ -28,9 +29,11 @@ categories: desserts
 
 ##### Notes
 
-Pour éviter que le cake ne craquellent et explose sur le dessus, il faut adapter la cuisson. Essayez avec un mode de chaleur non ventilé.
+Je vois beaucoup de livres, même pros, qui demandent de blanchir le sucre avec le beurre. Mais pour ma recette, j’insiste, surtout ne faites pas ça ! Le gâteau se rétracterait après cuisson…!
 
 Si vous utilisez un moule plus grand, il faudra faire plus de pâte, la seule chose à respecter est que celle-ci doit arriver aux 3/4 de la hauteur du moule.
+
+Pour éviter que le cake ne craquellent et explose sur le dessus, il faut adapter la cuisson. Essayez avec un mode de chaleur non ventilé.
 
 ##### La préparation
 
