@@ -8,7 +8,7 @@ categories: [cuissons & préparations]
 
 # {{ page.title }}
 
-[Source](https://lacuisinedebernard.com/cake-sale-a-lail-des-ours/)
+[Source](https://lacuisinedebernard.com/le-cake-ultime-au-citron/)
 
 ##### Ingrédients
 
