@@ -28,6 +28,8 @@ categories: desserts
 
 ##### Notes
 
+Pour éviter que le cake ne craquellent et explose sur le dessus, il faut adapter la cuisson. Essayez avec un mode de chaleur non ventilé.
+
 Si vous utilisez un moule plus grand, il faudra faire plus de pâte, la seule chose à respecter est que celle-ci doit arriver aux 3/4 de la hauteur du moule.
 
 ##### La préparation
