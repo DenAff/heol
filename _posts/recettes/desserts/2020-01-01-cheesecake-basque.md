@@ -48,11 +48,11 @@ Ajouter le sucre et mélanger pendant 3 minutes.<br><br>
 ##### Notes
 
 - fromages frais : ma petite astuce préférée pour les cheesecakes c'est de mélanger Philadelphia ET mascarpone, car cela adoucit le goût assez prononcé du Philadelphia. C'est donc ce que j'ai fait ici.
-Evitez de remplacer par du St Morêt car c'est salé (donc pas terrible)<br>
-- crème liquide : il vous faut absolument de la crème liquide entière 30%mg, pas d'allégée pour ce cheesecake basque.<br>
-- sucre en poudre: j'utilise du sucre en poudre classique, pas de cassonade car je voulais garder le contraste entre côté très clair au centre du cheesecake et bruni sur le dessus.<br>
-- Les ingrédients doivent être impérativement à température ambiante, y compris les fromages frais. Si ils sont froids, la texture crémeuse sera compliquée à obtenir, ce serait dommage. Il faut donc penser à les sortir 1h avant du frigo.<br>
-- bien doubler le papier cuisson dans le moule pour éviter tout débordement : la pâte est liquide donc elle nécessite d'être bien contenue dans le papier cuisson.<br>
-- taper le moule contre le plan de travail avant d'enfourner pour enlever le maximum de bulles d'air.<br>
-- éviter d'ouvrir la porte du four pendant la cuisson pour éviter que le cheesecake basque ne retombe trop vite.<br>
+Evitez de remplacer par du St Morêt car c'est salé (donc pas terrible)<br><br>
+- crème liquide : il vous faut absolument de la crème liquide entière 30%mg, pas d'allégée pour ce cheesecake basque.<br><br>
+- sucre en poudre: j'utilise du sucre en poudre classique, pas de cassonade car je voulais garder le contraste entre côté très clair au centre du cheesecake et bruni sur le dessus.<br><br>
+- Les ingrédients doivent être impérativement à température ambiante, y compris les fromages frais. Si ils sont froids, la texture crémeuse sera compliquée à obtenir, ce serait dommage. Il faut donc penser à les sortir 1h avant du frigo.<br><br>
+- bien doubler le papier cuisson dans le moule pour éviter tout débordement : la pâte est liquide donc elle nécessite d'être bien contenue dans le papier cuisson.<br><br>
+- taper le moule contre le plan de travail avant d'enfourner pour enlever le maximum de bulles d'air.<br><br>
+- éviter d'ouvrir la porte du four pendant la cuisson pour éviter que le cheesecake basque ne retombe trop vite.<br><br>
 - Ce cheesecake basque se conserve jusqu'à 4 jours au réfrigérateur. Vous pouvez le placer dans un récipient ou cloche hermétique pour le protéger des odeurs du frigo.
