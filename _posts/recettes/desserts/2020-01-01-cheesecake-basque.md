@@ -41,6 +41,10 @@ Ajouter le sucre et mélanger pendant 3 minutes.<br><br>
 - Enfourner environ 40-45 minutes : cela dépend beaucoup de votre four. Il faut que le dessus soit bruni (pas noir non plus). Il va gonfler un peu sur les côtés mais ça retombera ensuite. Le centre du cheesecake doit bouger comme un flan : on a l'impression que ce n'est pas cuit, mais c'est suffisant pour une texture crémeuse à la dégustation. Plus on le cuit, moins il sera crémeux.<br><br>
 - Hors du four, déposer le moule sur une grille pour refroidissement. Placer ensuite au moins 4 heures au réfrigérateur (non couvert) pour qu'il prenne sa texture finale (une nuit c'est bien aussi).
 
+</section>
+
+</ul>
+
 ##### Notes
 
 - fromages frais : ma petite astuce préférée pour les cheesecakes c'est de mélanger Philadelphia ET mascarpone, car cela adoucit le goût assez prononcé du Philadelphia. C'est donc ce que j'ai fait ici.
@@ -52,7 +56,3 @@ Evitez de remplacer par du St Morêt car c'est salé (donc pas terrible)<br>
 - taper le moule contre le plan de travail avant d'enfourner pour enlever le maximum de bulles d'air.<br>
 - éviter d'ouvrir la porte du four pendant la cuisson pour éviter que le cheesecake basque ne retombe trop vite.<br>
 - Ce cheesecake basque se conserve jusqu'à 4 jours au réfrigérateur. Vous pouvez le placer dans un récipient ou cloche hermétique pour le protéger des odeurs du frigo.
-
-</section>
-
-</ul>
