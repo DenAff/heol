@@ -10,6 +10,6 @@ categories: astuces
 
 <br>
 
-<iframe frameborder="0" src="https://drive.google.com/file/d/1Q4bVPiwxXjtLaZp_Ew5b4ITQdhOF3HjZ/view?usp=sharing"></iframe>
+<iframe frameborder="0" src="https://drive.google.com/file/d/1Q4bVPiwxXjtLaZp_Ew5b4ITQdhOF3HjZ/preview"></iframe>
 
 </div>
