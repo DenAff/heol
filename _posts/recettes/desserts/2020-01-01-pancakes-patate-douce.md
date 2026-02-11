@@ -44,6 +44,8 @@ categories: desserts
 
 </section>
 
+</ul>
+
 ##### Astuces
 
 - Meilleure façon de cuire les patates douce : au four avec la peau, sur plaque couverte de papier cuisson, 1 heure à 180°C<br>
@@ -55,5 +57,3 @@ categories: desserts
 - Utiliser un emporte pièce beurré pour avoir des formes de pancakes parfaites<br>
 - Conservation : vous pouvez les congeler, ou les emballer dans du film alimentaire. Ils resteront moelleux plusieurs jours en les gardant au frigo, et il suffit de les passer 15 secondes au micro ondes pour leur redonner du moelleux ou… 30 secondes au grille pain, c’est encore mieux !<br>
 - Préparer la pâte la veille ? Oui, mais dans ce cas, ne mettez pas les blancs d’oeuf. Couvrez la pâte avec un film alimentaire, au contact (le film alimentaire est posé sur la surface de la pâte, pour éviter qu’une croute se forme). Le lendemain, sortez la pâte du frigo, fouettez la 30 secondes pour la mélanger, puis battez les blancs conservés à part et ajoutez les.
-
-</ul>
