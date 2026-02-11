@@ -36,9 +36,10 @@ categories: desserts
 
 - Mélangez les ingrédients secs dans un bol : farine, sel, cannelle , levure chimique et bicarbonate<br><br>
 - Prélevez la chair de 2 patates douces (200 g environ) que vous aurez préalablement cuit à 180°C pendant 1 heure, et mixez la chair en purée bien onctueuse<br><br>
-- Dans un autre bol, mélangez le lait, les 2 jaunes d'oeuf, la purée de patate douce et 1 c. à soupe de beurre fondu ou d'huile végétalev<br><br>
+- Dans un autre bol, mélangez le lait, les 2 jaunes d'oeuf, la purée de patate douce et 1 c. à soupe de beurre fondu ou d'huile végétale<br><br>
 - Ajoutez-y les ingrédients secs, mélangez.<br><br>
-- Battez les 2 blancs en neige et ajoutez les, c'est fini !<br><br>
+- Laissez reposer 15 à 30 minutes<br><br>
+- Battez les 2 blancs en neige et ajoutez les à la préparation (c'est le secret de pancakes ultra moelleux)<br><br>
 - Chauffez une poêle, avec un peu de beurre (ou pas) et faites cuire les pancakes 4 minutes (2 de chaque côté), servez avec du sirop d'érable.
 
 ##### Astuces
@@ -48,7 +49,10 @@ categories: desserts
 - Pour le lait : lait de vache ou végétal : ca fonctionne. Lait de coco, de soja, d’amande…<br>
 - Pour les oeufs : bien battre les blancs en neige pour apporter de la légèreté à la texture des pancakes<br>
 - Le sucre : je n’en mets pas dans ma recette car la patate douce est déjà légèrement sucrée. Vous pouvez en ajouter un peu si vous souhaitez, ou servir les pancakes avec du sirop d’érable<br>
-- Conservation : vous pouvez les congeler, ou les emballer dans du film alimentaire. Ils resteront moelleux plusieurs jours en les gardant au frigo, et il suffit de les passer 15 secondes au micro ondes pour leur redonner du moelleux.
+- Mélanger les farines : moitié farine T55 classique, moitié farine complète : plus de fibres, plus rassasiants !<br>
+- Utiliser un emporte pièce beurré pour avoir des formes de pancakes parfaites<br>
+- Conservation : vous pouvez les congeler, ou les emballer dans du film alimentaire. Ils resteront moelleux plusieurs jours en les gardant au frigo, et il suffit de les passer 15 secondes au micro ondes pour leur redonner du moelleux ou… 30 secondes au grille pain, c’est encore mieux !<br>
+- Préparer la pâte la veille ? Oui, mais dans ce cas, ne mettez pas les blancs d’oeuf. Couvrez la pâte avec un film alimentaire, au contact (le film alimentaire est posé sur la surface de la pâte, pour éviter qu’une croute se forme). Le lendemain, sortez la pâte du frigo, fouettez la 30 secondes pour la mélanger, puis battez les blancs conservés à part et ajoutez les.
 
 </section>
 
