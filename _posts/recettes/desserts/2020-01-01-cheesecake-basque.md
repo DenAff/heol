@@ -22,7 +22,7 @@ categories: desserts
 
 ##### Matériels
 
-- Moule rond à charnière de 20cm
+- Moule rond à charnière de 24cm de diamètre et 4,5 cm de hauteur 
 
 ##### La préparation
 
