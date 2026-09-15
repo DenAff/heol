@@ -11,7 +11,7 @@ categories: [Recettes asiatiques]
 [Source](https://www.youtube.com/watch?v=fLRBi0dsUl8&list=PLy-febpd4h2wh38gNVMgva_0HMbsF9Qy3&index=6&t=196s)
 
 <div class="recipe-video">
-  <video controls preload="metadata" style="max-width:100%; height:auto;">
+  <video controls preload="metadata" style="max-width:50%; height:auto; background-color:#808080;">
     <source src="https://videos.ti-labour.ovh/videos/heol/whoogys-tantanmen_h264.mp4" type="video/mp4">
     Ton navigateur ne supporte pas la lecture de vidéos HTML5.
   </video>
