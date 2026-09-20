@@ -1,5 +1,5 @@
 ---
-title: 🍪 Biscuits à la semoule et au citron
+title: Biscuits à la semoule et au citron
 layout: posts
 custom_css: posts
 permalink: /recettes/:title
