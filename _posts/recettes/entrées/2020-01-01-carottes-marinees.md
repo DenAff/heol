@@ -3,7 +3,7 @@ title: Carottes marinées 🥕
 layout: posts
 custom_css: posts
 permalink: /recettes/:title
-categories: [entrées]
+categories: entrées
 ---
 
 # {{ page.title }}
